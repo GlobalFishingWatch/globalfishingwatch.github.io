@@ -4,7 +4,7 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  {% capture introduction %}{% include introduction.md %}{% endcapture %}{{ introduction | markdownify }}
 
   <ul class="post-list">
     {% for post in site.posts %}
