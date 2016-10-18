@@ -18,7 +18,16 @@ Vagrant.configure("2") do |config|
     sudo gem install jekyll-seo-tag -v '2.0.0'
     sudo gem install therubyracer -v '0.11.4'
     bundle install 
-    bundle exec jekyll serve -H 0.0.0.0
+    echo "To start server:"
+    echo
+    echo "    vagrant ssh"
+    echo "    cd /vagrant"
+    echo "    bundle exec jekyll serve -H 0.0.0.0"
+    echo
+    echo "To restart server:"
+    echo
+    echo "    Press CTRL-C"
+    echo "    bundle exec jekyll serve -H 0.0.0.0"
   PROVISION
 end
 
