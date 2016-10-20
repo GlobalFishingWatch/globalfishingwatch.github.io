@@ -1,45 +1,41 @@
 # Welcome to the Global Fishing Watch’s public website for our data and open source code.
 
-We use AIS and machine learning as a tool to shine a light on the
-practices of the fishing industry around the word, giving everyone an
-eyewitness perspective.
+[Global Fishing Watch](http://globalfishingwatch.org){:target="_blank"} is a collaboration between [Oceana](http://oceana.org), [SkyTruth](http://SkyTruth.org), and [Google](https://www.google.com/earth/outreach/index.html) to shine a light on all the practices of the fishing industry around the world. By using our public, [interactive map](http://map.globalfishingwatch.org){:target="_blank"} anyone with an internet connection can follow the movements of fishing vessels across the globe.
 
-We investigate using data collected by satellites to map, measure, and
-publicly illustrate the visible impacts to the oceans and coastal
-communities. We partner with other environmental organizations to
-strengthen their campaigns to grow awareness of these issues. This
-approach disrupts the status quo by showing fishermen and regulators
-that abuse of the environment will no longer remain hidden; and that
-the the public, investors, and other stakeholders will be able to hold
-someone accountable for the damage done by overfishing.
+We at Global Fishing Watch are commited to making, as much as possible, our our data freely available and our code opensource. This website is your portal to this technology and data, and we will be updating it as more code and datasets are developed and publshed.
 
-We lead by example, conducting projects that showcase how free public
-data and social media tools can be used to analyze, illuminate and
-report on issues and incidents, from local to international in scope.
-We provide consultation, conduct workshops and give presentations, and
-explain how and why we do what we do. We give away our knowledge —
-data sources, analytical techniques, software code, maps and images —
-encouraging others to extend and build on what we’ve created, and to
-use our work to bring about positive change. We invite the public to
-participate in collaborative citizen-science projects, helping us
-analyze imagery, create unique maps and illustrations, and extract
-scientifically useful data to inform research on significant
-environmental issues.
+We are working to share the following: (Each of the following headings will link to a seperate page, and many/most of the sub pages will in turn link to github pages.)
 
-The Global Fishing Watch project involves an intensive search for
-hard-to-find data: Vessel identities, behavioral models for different
-gear types, etc. Once we’ve done the work of finding, filtering and
-fixing these datasets to make them useful and mappable, we release
-them for everyone to use. Some of the work we do actually creates new
-data that didn’t previously exist, allowing scientists around the
-world to conduct research that wasn’t previously possible — research
-that can have a direct impact on public policy and resource
-management. By giving the data away, our impact is multiplied many
-times over by the scientists, journalists, citizens groups, government
-agencies and other organizations that put it to use.
+## Processing AIS Data
+ - link to benthos-pipeline (right?)
+
+## Global Fishing Watch Interactive Map
+ - Clustering and tileset generation
+ - Visualization frontend 
+
+## Fishing Algorithm
+ - Link to repo and information on it
+ - Labeled fishing effort, anonyomized
+ - Map of confidence in fishing algorithm
+
+## [Vessel Idendity](vessels.html)
+ - Likely fishing vessels
+ - Vessel registries & matches with AIS data
+ - Neural net (and then a link to the repo where this lives)
+
+## [Fishing Effort](effort.html)
+ - Daily rasters by flag state and geartype
+ - Map of estimated coverage by flag state
+
+## [Transshipment](transshipment.html)
+ - Spreadsheet of possible meetups
+ - Any other data we can share
+
+## Other Data
+ - Distance from shore raster
+ - Ports database
+ - Distance from port raster
+
+Here's a chart Egil made:
 
 <object data="{{ site.url }}{{site.baseurl}}/images/Architecture-overview.svg" type="image/svg+xml"></object>
-
-The GFW project is made up by many different components and datasets.
-The diagram above outlines how data flows in our system, and links to
-the github repository of each subsystem or dataset.

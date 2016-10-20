@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Global Fishing Watch
+title: Global Fishing Watch Data
 contact: http://globalfishingwatch.org/contact-us
 description: > # this means to ignore newlines until "baseurl:"
   Global Fishing Watch enables anyone with an Internet connection to see fishing activity anywhere in the ocean in near real-time, for free.
@@ -25,3 +25,5 @@ github_username:  globalfishingwatch
 # Build settings
 markdown: kramdown
 theme: minima
+
+include: ['_pages']
