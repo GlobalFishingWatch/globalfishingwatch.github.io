@@ -2,7 +2,7 @@
 layout: post
 title: Hello World
 tags: [Hello, World]
-categories: [Test, Hello World]
+category: [Test]
 ---
 
 ### Hello World !
