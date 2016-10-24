@@ -18,7 +18,7 @@ We are working to share the following: (Each of the following headings will link
  - Labeled fishing effort, anonyomized
  - Map of confidence in fishing algorithm
 
-## [Vessel Idendity](vessels.html)
+## [Vessel Identity](vessels.html)
  - Likely fishing vessels
  - Vessel registries & matches with AIS data
  - Neural net (and then a link to the repo where this lives)
