@@ -9,7 +9,7 @@ AIS messages include a field `shiptype`, which is a two digit number correspondi
 To identify fishing vessels we also match mmsi numbers to vessel registries, such as the [European Union's vessel registry](http://ec.europa.eu/fisheries/fleet/index.cfm), or the [Consolidated List of Authorized Authorized Vessels](http://www.tuna-org.org/vesselpos.htm). Many of these vessels also self-report as fishing, and thus are also `likely` vessels. These matches, though, give us a higher degree of confidence, and we call these vessels `known` fishing vessels.
 
 ### 3. Suspected Fishing Vessels
-The third method involves using machine learning techniques to identify vessels that behave like fishing vessels. This method is still under development. We call these `suspected` fishing vessels. Visit [Global Fishing Watch Vessel Classification Pipeline](https://github.com/GlobalFishingWatch/vessel-classification-pipeline) to see our code for this project.
+The third method involves using machine learning techniques to identify vessels that behave like fishing vessels. This method is still under development. We call these `suspected` fishing vessels. Visit our page on our [neural net]({{ site.url }}{{site.baseurl}}/neural-net.html) to learn more about .
 
 
 # Version 0.1 of Vessel Lists

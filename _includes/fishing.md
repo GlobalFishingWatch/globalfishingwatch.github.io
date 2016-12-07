@@ -1,8 +1,11 @@
-# Data
+# Global Fishing Watch Fishing Algorithm
 
 How do we measure fishing? 
 
 [Link to repo](https://github.com/GlobalFishingWatch/vessel-scoring).
 
-Description and images here.
+Version 1 (write about the Logistic Regression at Release)
+
+Version 2... 
+
 
