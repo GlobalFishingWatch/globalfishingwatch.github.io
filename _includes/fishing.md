@@ -8,7 +8,7 @@
 # Global Fishing Watch Fishing Algorithm
 
 * [Source code for the algorithm](https://github.com/GlobalFishingWatch/vessel-scoring)
-* [Training data for the algorithm](https://github.com/GlobalFishingWatch/training-data)
+* [Training data for the algorithm](anonymized.html)
 * [Jupyter notebook describing the models in depth](https://github.com/GlobalFishingWatch/vessel-scoring/blob/master/notebooks/Model-Descriptions.ipynb)
 
 ## Background
