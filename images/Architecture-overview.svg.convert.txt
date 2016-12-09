@@ -1,0 +1,1 @@
+sed -e 's+https://www.google.com/url\?q=\([^&"]*\)&amp;[^"]*"+\1"+g' -i Architecture-overview.svg

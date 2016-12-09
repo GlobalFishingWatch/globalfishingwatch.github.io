@@ -10,6 +10,10 @@ This website is your portal for the datasets and code that power [Global Fishing
  - [Transshipment](transshipment.html)
  - [Other Data](other.html)
 
+### Learn about out processing architecture
+ - [Architecture overview](architecture.html)
+
+
 --------------
 
 # Data Blog Posts:
