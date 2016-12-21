@@ -1,3 +1,10 @@
+---
+layout: post
+title: Web visualization at scale
+tags: [Data, Visualization]
+category: [Code]
+---
+
 # Background
 
 The main output of the global Fishing Watch project is the interactive
