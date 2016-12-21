@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Vessel Identity
 
 Over the course of a year, around 300,000 vessels broadcast their location via AIS. Several tens of thousands of these vessels are industrial fishing vessel, and we identify these vessels through three methods. 

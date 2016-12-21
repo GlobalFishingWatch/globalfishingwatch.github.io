@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Other Data
 
 We have developed and use several GIS datasets that are not directly

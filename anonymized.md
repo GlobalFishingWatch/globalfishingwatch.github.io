@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Anonymized AIS Data
 
 The raw AIS data we use is commercial data owned by Orbcomm; we cannot

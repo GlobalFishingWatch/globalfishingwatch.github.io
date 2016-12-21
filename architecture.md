@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Processing architecture
 
 We start with raw AIS data. This data contains both positional and
