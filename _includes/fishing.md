@@ -53,7 +53,7 @@ relate to whether a vessel is fishing. It is apparent from Figure 2,
 that fishing activity tends to be be clustered in certain regions of
 average-speed, speed-deviation and course-deviation.
 
-![Feature distribution]({{ site.url }}{{site.baseurl}}/images/FeatureDistribution.png) 
+[![Feature distribution]({{ site.url }}{{site.baseurl}}/images/FeatureDistribution.png)](https://github.com/GlobalFishingWatch/vessel-scoring/blob/master/notebooks/Documentation-Figures.ipynb)
 Figure 2: Fishing activity, shown in red, is most common for speeds in
 the range of 2 to 5 knots and is also associated larger deviations in
 speed and course.
