@@ -6,11 +6,12 @@ This website is your portal for the datasets and code that power [Global Fishing
 ### Get the Data
  - [Vessel Identity](vessels.html)
  - [Fishing Activity](effort.html)
- - [Anonymized AIS Data](anonymized.html)
  - [Transshipment](transshipment.html)
+ - [Anonymized AIS Data](anonymized.html)
  - [Other Data](other.html)
 
-### Learn about out processing architecture
+### Learn about our processing architecture
+ - [Fishing detection models](fishing.html)
  - [Architecture overview](architecture.html)
 
 
