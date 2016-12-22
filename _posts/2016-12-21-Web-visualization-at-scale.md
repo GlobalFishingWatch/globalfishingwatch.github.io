@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Web visualization at scale
+author: Egil Moeller
 tags: [Data, Visualization]
 category: [Code]
 ---

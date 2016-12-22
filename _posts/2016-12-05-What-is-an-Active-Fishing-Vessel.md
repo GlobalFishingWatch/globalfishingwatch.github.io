@@ -1,6 +1,7 @@
 ---
 layout: post
 title: What is an 'Active' Fishing Vessel?
+author: David Kroodsma
 tags: [AIS, Data]
 category: [Vessel Activity]
 ---

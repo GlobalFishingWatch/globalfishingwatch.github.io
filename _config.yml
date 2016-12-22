@@ -27,3 +27,21 @@ markdown: kramdown
 theme: minima
 
 include: ['_pages']
+
+authors:
+  hanzou:
+    name: David Kroodsma
+    display_name: David
+    gravatar: c66919cb194f96c696c1da0c47354a6a
+    email: davidk@skytruth.org
+    web: http://globalfishingwatch.org
+    twitter: davidkroodsma
+    github: davidkroodsma
+  jorgen:
+    name: Egil Moeller
+    display_name: Egil
+    gravatar: 12e480a364a5c19214f99b4dfe9a11d5
+    email: egil@skytruth.org
+    web: http://globalfishingwatch.org
+    twitter: redhog
+    github: redhog

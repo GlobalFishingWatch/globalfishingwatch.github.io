@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Example of AIS Data for One Vessel
+author: David Kroodsma
 tags: [AIS, Data]
 category: [Vessel Tracks]
 ---
@@ -27,5 +28,5 @@ The upshot is that in parts of the world where there are numerous vessels with A
 
 We'll have another post soon about satellites. One thing to note is that the number of satellites in orbit is increasing, which will both increase the number of positions we see in any given hour and also reduce the gaps in satellite coverage. 
 
-You can see the code used to generate these maps [here](https://github.com/GlobalFishingWatch/data-dashboard/blob/master/forposts/AIS%20Data%20Examples.ipynb). [I will move these posts to a different repo once we are live]
+You can see the code used to generate these maps [here](https://github.com/GlobalFishingWatch/data-blog-code/blob/master/2016/12/AIS-Data-Examples.ipynb). 
 
