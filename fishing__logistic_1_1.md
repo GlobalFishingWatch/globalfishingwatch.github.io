@@ -2,6 +2,12 @@
 layout: default
 ---
 
+<style>
+table, th, td {
+   border: 1px solid black;
+}
+</style>
+
 # Logistic regression model 1.1
 
 ## Overview
