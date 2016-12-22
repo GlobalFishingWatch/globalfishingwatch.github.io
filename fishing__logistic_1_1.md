@@ -5,6 +5,8 @@ layout: default
 <style>
 table, th, td {
    border: 1px solid black;
+   border-collapse: collapse;
+   
 }
 </style>
 
@@ -40,6 +42,7 @@ purse seine vessels.
 | Trawler       | 0.93      | 0.91      |               |               |
 | Purse Seine   | 0.11      | 0.73      |               |               |
 
+<br/>
 
 The output of the model is the predicted probability that a vessel is fishing
 at a given AIS point. The above table uses a probability of 0.5 as a threshold
@@ -76,6 +79,7 @@ In addition, data from two vessels performing slow transits is added to the trai
 | Purse Seine   | 7         | 398,897   |               |               |
 | Slow Transits |           |           | 2             | 9,038         |
 
+<br/>
 
 The vessels for each class are divided between the training and test sets so
 that roughly three-quarters of the points from each class are in the training
