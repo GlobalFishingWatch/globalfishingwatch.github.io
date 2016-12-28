@@ -5,21 +5,25 @@
     <h2 class="footer-heading">{{ site.title | escape }}</h2>
 
     <div class="footer-col-wrapper">
+
+
+     <!--  <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+        </ul>
+      </div> -->
+
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li>
+<!--           <li>
             {% if site.author %}
               {{ site.author | escape }}
             {% else %}
               {{ site.title | escape }}
             {% endif %}
-            </li>
-          <li><a href="{{ site.contact }}">Contact</a></li>
-        </ul>
-      </div>
+            </li> -->
+          <li><a href="{{ site.contact }}"><img src="{{site.baseurl}}/images/mail.jpg" height="13"> research@globalfishingwatch</a></li>
 
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
           {% if site.github_username %}
           <li>
             {% include icon-github.html username=site.github_username %}
@@ -34,9 +38,21 @@
         </ul>
       </div>
 
-      <div class="footer-col footer-col-3">
+
+
+      <div class="footer-col footer-col-4">
         <p>{{ site.description | escape }}</p>
       </div>
+
+
+      <div class="footer-col footer-col-5">
+        <p> <img src="{{site.baseurl}}/images/global_fishing_watch.png" height="60"></p>
+      </div>
+
+
+
+
+
     </div>
 
   </div>

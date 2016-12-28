@@ -37,3 +37,7 @@ $on-laptop:        800px;
 
 // Import partials from the `minima` theme.
 @import "minima";
+
+.footer-col-4 { width: -webkit-calc(55% - (30px / 2)); width: calc(55% - (30px / 2)); }
+
+.footer-col-5 { width: -webkit-calc(10% - (30px / 2)); width: calc(10% - (30px / 2)); }
