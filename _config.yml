@@ -26,7 +26,7 @@ github_username:  globalfishingwatch
 markdown: kramdown
 theme: minima
 disqus:
-  shortname: globalfishingwatch-github-io-ju6wuv7r
+  shortname: gfw-data
 
 
 include: ['_pages']
