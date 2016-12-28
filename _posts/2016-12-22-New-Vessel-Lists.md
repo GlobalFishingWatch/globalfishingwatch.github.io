@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Updated Fishing Lists
+title: Updated Fishing Lists - Version 0.2
 author: David Kroodsma
 tags: [AIS, Data]
 category: [Vessel_Activity]

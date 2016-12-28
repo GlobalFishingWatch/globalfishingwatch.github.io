@@ -25,8 +25,8 @@ github_username:  globalfishingwatch
 # Build settings
 markdown: kramdown
 theme: minima
-disqus:
-  shortname: gfw-data
+# disqus:
+#   shortname: gfw-data
 
 
 include: ['_pages']
