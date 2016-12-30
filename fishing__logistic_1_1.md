@@ -30,13 +30,13 @@ discussion of previous and upcoming models.
 The model is trained using data that has been hand labeled as fishing or non-fishing 
 by Kristina Boerder at Dalhousie University. Three-quarters of the
 data is used for training while the remaining quarter is used for validating
-the model. In addition to the data from Dalhousie, crowdsourced data for
+the model. In addition to the data from Dalhousie, data classified by GFW analysts for
 longliners is used for additional model validation. As seen in the table
 below, the model performs well for longliners and trawlers, but poorly on
 purse seine vessels.
 
 
-|               |  Dalhousie<br/>Precison  | Dalhousie<br/>Recall    | Crowd Sourced<br/>Precision       | Crowd Sourced<br/>Recall          |
+|               |  Dalhousie<br/>Precison  | Dalhousie<br/>Recall    | GFW Analyst<br/>Precision       | GFW Analyst<br/>Recall          |
 |---------------|-----------|-----------|---------------|---------------|
 | Longliner     | 0.97      | 0.78      | 0.93          | 0.71          |
 | Trawler       | 0.93      | 0.91      |               |               |
@@ -68,11 +68,11 @@ An SKLearn LogisticRegression model is then trained using these features in the 
 
 ## Data Details
 
-The training data from Dalhousie consists of hand-classified AIS data for 29 unique vessels with complete tracks classified over long periods. These vessels are divided between the different gear types as shown in the table below. There are also 118 longliner vessels with crowdsourced classification, where shorter track segments are classified for each vessel. 
+The training data from Dalhousie consists of hand-classified AIS data for 29 unique vessels with complete tracks classified over long periods. These vessels are divided between the different gear types as shown in the table below. There are also 118 longliner vessels with GFW analyst classification, where shorter track segments are classified for each vessel. 
 
 In addition, data from two vessels performing slow transits is added to the training data to help the model learn to avoid classifying these transits as fishing.
 
-|               |  Dalhousie<br/>Vessels  | Dalhousie<br/>Points    | Crowd Sourced<br/>Vessels       | Crowd Sourced<br/>Points        |
+|               |  Dalhousie<br/>Vessels  | Dalhousie<br/>Points    | GFW Analyst<br/>Vessels       | GFW Analyst<br/>Points        |
 |---------------|-----------|-----------|---------------|---------------|
 | Longliner     | 16        | 569,504   | 118           | 324,166       |
 | Trawler       | 6         | 828,162   |               |               |
