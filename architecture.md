@@ -12,7 +12,7 @@ incorrect.
 ## Vessel identification
 
 We try to match the MMSI (station identity in AIS) with vessel
-identities in fishing registries. When that fails, we crowd source
+identities in fishing registries. When that fails, we manually classify
 vessel and gear type information based on online sources as well as
 ship tracks. This information is used to train a neural net model to
 predict vessel and gear type from movement patterns. We maintain lists
