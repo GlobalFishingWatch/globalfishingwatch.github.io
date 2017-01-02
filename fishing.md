@@ -7,7 +7,7 @@ We have refined and replaced our model multiple times through the
 project. Below follows a summary of each model
 
 * [Heuristic model 1.0](fishing__heuristic_1_0.html)
-  * Our first model was a heuristic model based on the intuition of Figure 2 above.
+  * Our first model was a heuristic model based on the intuition of Figure 2 below.
 
 * [Logistic regresssion model 1.1](fishing__logistic_1_1.html)
   * A logistic regression model using the same features as the
