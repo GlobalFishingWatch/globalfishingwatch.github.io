@@ -16,7 +16,7 @@
 title: Global Fishing Watch Data
 contact: http://globalfishingwatch.org/contact-us
 description: > # this means to ignore newlines until "baseurl:"
-  Unless otherwise stated, all Global Fishing Watch data and code is is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+  Unless otherwise stated, all Global Fishing Watch data is licensed under a Creative Commons Attribution-ShareAlike 4.0 International license and all and code under an Apache License 2.0 license.
 baseurl: "/ju6WuV7r" # the subpath of your site, e.g. /blog
 url: "/." # the base hostname & protocol for your site
 twitter_username: globalfishwatch
