@@ -19,7 +19,8 @@ The advantage of the javascript approach is that data can be manipulated, styled
 
 Tiled server side rasterization on the other hand does not have any size limitations beyond your server farms capacity. And even that, which  is not even a hard limit, as you can either pre-generate all tiles spending whatever time necessary to do so, or generate tiles and cache them on the fly depending on your specific data and usage patterns.
 
-Neither of these two approaches fit our data. The data size is too big for client side javascript rendering. However, rasterizing in three dimensions (lat, lon, time) generates too big tiles that are too large. There has been some preliminary work by others to solve this using video compression but [why didn’t this work for us].
+Neither of these two approaches fit our data. The data size is too big for client side javascript rendering. However, rasterizing in three dimensions (lat, lon, time) generates too big tiles that are too large. There has been some preliminary work by others to solve this using video compression, but such a solution would limit some of the interactivity and our ability to style the visualization. 
+
 
 # Sketching our solution
 
@@ -58,4 +59,4 @@ Our [temporal tiling system](http://globalfishingwatch.github.io/pelagos-client/
 
 We used a normal spatial tiling with a pyramid of tiles in sizes ranging from the whole world to very small regions, but only one temporal slice / tile length - 1 month. We used a dynamic spatial zoom level to emulate the effect of a full temporal pyramid for each spatial zoom level. The zoom level for the spatial tiles depend both on actual spatial zoom and the temporal zoom: The number of spatial tiles to divide the screen into is divided by the number of temporal slices needed to cover the cuorrent time window.
 
-If you have questions about how we made this visualization -- or suggestions for how we might improve the technical “under the hood” aspects of the visualization -- let us know in the comments below.
+If you have questions about how we made this visualization -- or suggestions for how we might improve the technical “under the hood” aspects of the visualization -- let us know in the comments below. You can also send an email to egil@skytruth.org
