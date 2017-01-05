@@ -4,8 +4,8 @@ layout: default
 
 # Other Data
 
-We have developed and use several GIS datasets that are not directly
-related to fishing, but that are necessary to properly identify
+We have developed and are using several GIS datasets that are not directly
+related to fishing but that are necessary to properly identify
 fishing. These datasets are [available here](https://github.com/GlobalFishingWatch/ancillary-gis-data).
  
 ### Distance to Shore
