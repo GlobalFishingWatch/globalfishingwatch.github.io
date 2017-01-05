@@ -11,12 +11,12 @@ layout: default
 
 The first model developed is referred to as the *heuristic model* and
 was derived by observing that there were correlations between fishing
-behaviour and several of the values present in AIS messages. In
+behavior and several of the values present in AIS messages. In
 particular, the likelihood that a vessel was fishing tends to increase
-with the standard deviation of the speed and course, but to decrease
+with the standard deviation of the speed and course but decrease
 with mean speed. These features, calculated over a one hour window,
 were used to develop the *heursitic model*
 
-The heuristic model performs reasonably well trawlers and
-longliners, but poorly for purse seiners.
+The heuristic model performs reasonably well for trawlers and
+longliners but poorly for purse seiners.
 
