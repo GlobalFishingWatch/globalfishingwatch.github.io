@@ -16,8 +16,8 @@ To identify fishing vessels we also match mmsi numbers to vessel registries, suc
 The third method involves using machine learning techniques to identify vessels that behave like fishing vessels. This method is still under development. We call these `suspected` fishing vessels. Visit the page on our [neural net]({{ site.url }}{{site.baseurl}}/neural-net.html) to learn more.
 
 
-# Version 0.1 of Vessel Lists
-This is the lists of fishing vessels that we included in the initial public release of Global Fishing Watch in September of 2016. We included vessels with the following criteria:
+# Version 0.1 of Vessel Lists 
+These are the lists of fishing vessels that we included in the initial public release of Global Fishing Watch in September of 2016. We included vessels with the following criteria:
 
  - At least 1000 position messages broadcast in any given year (thus ignoring vessels that had very
  little activity).
