@@ -15,6 +15,17 @@ To identify fishing vessels we also match mmsi numbers to vessel registries, suc
 ### 3. Suspected Fishing Vessels
 The third method involves using machine learning techniques to identify vessels that behave like fishing vessels. This method is still under development. When vessels exhibiting fishing behavior are not also listed in registries or do not self-report, we call these `suspected` fishing vessels. Visit the page on our [neural net]({{ site.url }}{{site.baseurl}}/neural-net.html) to learn more.
 
+# Version 0.3 of Vessel Lists 
+This release is the same as version 0.2, except we have included type 19 messages, which are messages where Class B vessels broadcast their identity. These messages were accidentally not included in the previous versions of the vessel lists, which excluded some vessels. Also, these lists are updated for all of 2016, and include a list for 2017. 
+
+For 2017, we include all mmsi active in the previous 12 months. We will be updating the 2017 list periodically, and posting those updates here.
+
+# Version 0.2 of Vessel Lists
+Our previous version included only vessels that had at least 1000 positions in a given year. We have changed this to 500 active positions -- positions where a vessel had a speed above 0.1 knots. We also are now including vessels that broadcast that they are fishing vessels more than 99 percent of the time (previous criteria was restricted to 100 percent). These relaxed restrictions increase the number of fishing vessels by roughly a few thousand per year.
+
+A blog entry about this update can be found [here]({{site.url}}{{site.baseurl}}/vessel_activity/2016/12/22/New-Vessel-Lists.html).
+
+To download lists 0.2, visit [this github release](https://github.com/GlobalFishingWatch/treniformis/tree/0.2/treniformis/_assets/GFW/FISHING_MMSI/KNOWN_AND_LIKELY).
 
 # Version 0.1 of Vessel Lists 
 These are the lists of fishing vessels that we included in the initial public release of Global Fishing Watch in September of 2016. We included vessels with the following criteria:
@@ -29,12 +40,7 @@ These lists of mmsi numbers can be accessed [here](https://github.com/GlobalFish
 
 Future versions of these lists will include flag state, gear type, and other information about the vessels. 
 
-# Version 0.2 of Vessel Lists
-Our previous version included only vessels that had at least 1000 positions in a given year. We have changed this to 500 active positions -- positions where a vessel had a speed above 0.1 knots. We also are now including vessels that broadcast that they are fishing vessels more than 99 percent of the time (previous criteria was restricted to 100 percent). These relaxed restrictions increase the number of fishing vessels by roughly a few thousand per year.
 
-A blog entry about this update can be found [here]({{site.url}}{{site.baseurl}}/vessel_activity/2016/12/22/New-Vessel-Lists.html).
-
-To download lists 0.2, visit [this github release](https://github.com/GlobalFishingWatch/treniformis/tree/0.2/treniformis/_assets/GFW/FISHING_MMSI/KNOWN_AND_LIKELY).
 
 
 ![Vessels]({{ site.url }}{{site.baseurl}}/images/vessel.jpg)
