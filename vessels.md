@@ -16,7 +16,7 @@ To identify fishing vessels we also match mmsi numbers to vessel registries, suc
 The third method involves using machine learning techniques to identify vessels that behave like fishing vessels. This method is still under development. When vessels exhibiting fishing behavior are not also listed in registries or do not self-report, we call these `suspected` fishing vessels. Visit the page on our [neural net]({{ site.url }}{{site.baseurl}}/neural-net.html) to learn more.
 
 # Version 0.3 of Vessel Lists 
-This release is the same as version 0.2, except we have included type 19 messages, which are messages where Class B vessels broadcast their identity. These messages were accidentally not included in the previous versions of the vessel lists, which excluded some vessels. Also, these lists are updated for all of 2016, and include a list for 2017. 
+This release is the same as version 0.2, except we have included type 19 messages, which are messages where Class B vessels broadcast their identity. These messages were accidentally not included in the previous versions of the vessel lists, which excluded some vessels. Also, these lists are updated for all of 2016, and include a list for 2017. To download lists 0.2, visit [this github release](https://github.com/GlobalFishingWatch/treniformis/tree/0.3/treniformis/_assets/GFW/FISHING_MMSI/KNOWN_AND_LIKELY).
 
 For 2017, we include all mmsi active in the previous 12 months. We will be updating the 2017 list periodically, and posting those updates here.
 
