@@ -10,7 +10,7 @@ For the first release of Global Fishing Watch, we included only vessels that had
 
 However, many vessels have fewer than 1000 position messages in a year, and some vessels only broadcast that they are fishing vessels 90 percent of the time. Should we include these vessels in analyses and visualizations?
 
-It turns out there are *a lot* of vessels that broadcast only a few positions per year. For instance, the chart below shows the number of vessels that had a given number of positions in 2015. This is grouped by every 50 positions, so the first point on the graph is the number of vessels that have between 0 and 50 points in 2015, while the second is the number that have between 50 and 100, and so on.
+It turns out there are *a lot* of vessels that broadcast only a few positions per year. For instance, the chart below shows the number of vessels that had a given number of positions in 2015. This is grouped by every 50 positions, so the first point on the graph is the number of vessels that have [clarify] between 0 and 50 points in 2015, while the second is the number that have between 50 and 100, and so on.
 
 ![pos_per_year.]({{ site.url }}{{site.baseurl}}/images/pos_per_year.png)
 
