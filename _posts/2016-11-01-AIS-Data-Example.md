@@ -7,7 +7,7 @@ category: [Vessel Tracks]
 comments: True
 ---
 
-Below is an example of what the tracks of the Jin Sheng No.2, a Chinese fishing vessel with mmsi number 413270430. Over three weeks in March of 2015, this vessel steamed from the central Pacific to the coast of Japan, Korea, and China. 
+The sample vessel track below shows position broadcasts of the Jin Sheng No.2, a Chinese fishing vessel with mmsi number 413270430. Over three weeks in March of 2015, this vessel steamed from the central Pacific to the coast of Japan, Korea, and China. 
 
 While moving, a vessel broadcasts its position via AIS every 2 to 10 seconds, meaning that this vessel was likely broadcasting thousands of messages per day. These messages can be received either by satellites (the blue dots on the map), or by antennas on the shoreline (the red dots, labeled "terrestrial").
 
