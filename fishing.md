@@ -2,28 +2,28 @@
 layout: default
 ---
 
-# The fishing detection models
-We have refined and replaced our model multiple times through the
-project. Below follows a summary of each model
+# The Fishing Detection Models
+We have refined and replaced our models multiple times throughout the
+project. Below follows a summary of each model:
 
-* [Heuristic model 1.0](fishing__heuristic_1_0.html)
+* [Heuristic Model 1.0](fishing__heuristic_1_0.html)
   * Our first model was a heuristic model based on the intuition of Figure 2 below.
 
-* [Logistic regresssion model 1.1](fishing__logistic_1_1.html)
+* [Logistic Regresssion Model 1.1](fishing__logistic_1_1.html)
   * A logistic regression model using the same features as the
     heuristic model, and trained using a hand labeled dataset.
 
-* Neural net model 1.0
+* Neural Net Model 1.0
   * We are currently developing a convolutional neural net (CNN) model
-    using the same training data as the logistic model
+    using the same training data as the logistic model.
 
 # Background to fishing detection
 The Global Fishing Watch (GFW) fishing score model computes the
 probability that a vessel is fishing based on its AIS track data. The
 combined fishing score of all vessels is used to estimate the [fishing
-effort worldwide](effort.html).
+activity worldwide](effort.html).
 
-## Definition of fishing
+## Definition of Fishing
 The definition of fishing is the subject of a surprising amount of
 debate at GFW. We define fishing as the period when a vessel has
 fishing gear in the water. However, we also use a more expansive
@@ -32,9 +32,9 @@ vessel spends away from shore in which it is not transiting to and
 from the fishing grounds. For trawlers and longliners, these two
 definitions give similar results, but the same is not true for purse
 seiners. They can be quite different since the time they spend with
-gear in the water is small relative to the time spent pursuing fish.
+gear in the water is small relative to the time spend pursuing fish.
 
-## Track characteristics
+## Track Characteristics
 An example of an AIS vessel track is shown in Figure 1 below, with the
 points where the vessel is fishing shown in red. The job of the
 fishing score model is to estimate the probability that a vessel is
@@ -50,13 +50,13 @@ is easily confused with fishing and using this 10 km cutoff avoids a
 large number of false positive fishing values.
 
 ![AIS example]({{ site.url }}{{site.baseurl}}/images/AISExample.png) 
-Figure 1: Example fishing vessel AIS track with fishing shown in red.
+Figure 1: Example fishing vessel AIS track with fishing shown in red
 
 To see how this works, examine the scatter plot shown in Figure 2.
 This shows how these three features computed over a six hour window
 relate to whether a vessel is fishing. It is apparent from Figure 2
-that fishing activity tends to be be clustered in certain regions of
-average-speed, speed-deviation, and course-deviation.
+that fishing activity tends to be clustered in certain regions of
+average-speed, speed-deviation and course-deviation.
 
 [![Feature distribution]({{ site.url }}{{site.baseurl}}/images/FeatureDistribution.png)](https://github.com/GlobalFishingWatch/vessel-scoring/blob/master/notebooks/Documentation-Figures.ipynb)
 Figure 2: Fishing activity, shown in red, is most common for speeds in
