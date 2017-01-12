@@ -23,4 +23,4 @@ database.
 We are developing a port database based on where vessels with AIS
 anchor for longer than 48 hours. We plan to combine this data with the
 [World Port
-Index](http://msi.nga.mil/NGAPortal/MSI.portal?_nfpb=true&_pageLabel=msi_portal_page_62&pubCode=0015)
+Index](http://msi.nga.mil/NGAPortal/MSI.portal?_nfpb=true&_pageLabel=msi_portal_page_62&pubCode=0015).
