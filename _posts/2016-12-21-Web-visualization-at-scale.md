@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Web visualization at scale
+title: Web Visualization at Scale
 author: Egil Moeller
 tags: [Data, Visualization]
 category: [Code]
@@ -22,7 +22,7 @@ Tiled server side rasterization on the other hand does not have any size limitat
 Neither of these two approaches, however, fit our data. The data size is too big for client side javascript rendering, and rasterizing in three dimensions (lat, lon, time) generates too big tiles that are too large. There has been some preliminary work by others to solve this using video compression, but such a solution would limit some of the interactivity and our ability to style the visualization. 
 
 
-# Sketching our solution
+# Sketching Our Solution
 
 We chose to do a hybrid approach -- rendering client side, but using tiling. That is, our tiles contain vector data. At lower zoom levels the tiles can not contain individual track points, but rather clusters of points. We used two different clustering methods: First we cluster in time inside each track, resampling the tracks to lower precision in time. If that is not enough to get the tile content below a predefined size limit, we then cluster spatially for each time point, across vessels.
 
@@ -30,7 +30,7 @@ Unfortunately, given the number of tracks we had (150,000 vessels) and the time 
 
 To get around this, we split the tiles temporally, generating a (very flat, see below) tile cube. In addition, we switched to rendering the vector data using WebGL rather than javascript.
 
-# WebGL rendering
+# WebGL Rendering
 
 WebGL is intended to do 3D visualizations. However, it is not a 3D API -- it deals with 2D rendering of 3D objects by user supplied shader code, providing primitives to do coordinate transformation, projection, Z-ordering, etc. The shader code runs directly on the graphics card. They are written in a statically typed compiled language and run in parallel on multiple data. All this makes WebGL vastly faster than Javascript at processing large number of points -- somewhere between 1000 and 10000 times faster depending on exactly how you visualize the points. It mostly depends on how large each point is in pixels.
 
@@ -38,11 +38,11 @@ Together with WebGL, modern browsers also support a very basic API for handling 
 
 This approach does require that all processing be done in WebGL. This includes both styling, mapping from tile data to visualization parameters, and point filtering (e.g. handling the currently selected time window or user defined filters like vessel flag states or gear type).
 
-## Mouse interactivity
+## Mouse Interactivity
 
 We used a variant of a technique called [WebGL picking](http://www.opengl-tutorial.org/miscellaneous/clicking-on-objects/picking-with-an-opengl-hack/) to handle mouse interactivity. In this technique, objects are rendered in an offscreen buffer using a unique color for each object, so that the object under the mouse pointer can be deduced by reading back the pixel color. Our variant doesn't render the whole scene, but rather only a 100x100 pixel square around the mouse pointer (using WebGL clipping), caching the results between mouse moves unless the visualization parameters have changed. This minimizes the sum of the draw time and the time to read the pixel values back from the graphics card.
 
- # Temporal tiling
+ # Temporal Tiling
 
 A spatial tiling system consists of a pyramid of tile grids at all available zoom levels. A full temporal tiling system using the same approach would require a very large set of tiles. The usage patterns of such a tile cube would however be very sparse because most tiles would only be requested by a very small number of users.
 
