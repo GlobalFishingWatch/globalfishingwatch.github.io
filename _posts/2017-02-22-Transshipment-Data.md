@@ -15,7 +15,7 @@ The image above was created by our data scientist Nate Miller, who has spent the
 
 In our database, we identified _likely_ and _potential_ transshipments. Likely events are where we see a regrigerated cargo vessel meet up with a fishing vessel while more than 20 nautical miles from shore. Most likely, they are transshiping _something_. The potential events are when we see refrigerated cargo vessels, or reefers, loitering at sea for enough time to receive a transshipment. For a full description, see the report. 
 
-The data used to make the map above is now freely available. You can [download a csv file with every one of the points on the map above here](). In fact, you can run an R script that Nate run to generate the plot above with [this code]() 
+The data used to make the map above is now freely available. You can [download a csv file with every one of the points on the map above here](). In fact, you can run an R script that Nate ran to generate the plot above with [this code](https://github.com/GlobalFishingWatch/data-blog-code/blob/master/2017/2/global_footprint_map_code.R) 
 
 If you prefer Python, I wrote [a quick Python script](https://github.com/GlobalFishingWatch/data-blog-code/blob/master/2017/2/GFW_Transshipment_Data.ipynb) to make a slightly similar map the the one Nate developed above. If you download our data, and you have the right python libraries installed, you can run this script.
 
