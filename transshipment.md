@@ -4,7 +4,7 @@ layout: default
 
 # Transshipment Data
 
-We have developed a dataset of likely and potential transshipments -- events where a fishing vessel meets up with a refrigerated cargo vessel to offload their catch while at sea. 
+We have developed a dataset of likely and potential transshipments -- events where a fishing vessel meets up with a refrigerated cargo vessel to offload its catch while at sea. 
 
 ![transship]({{ site.url }}{{site.baseurl}}/images/globalfootprinttransshpments.png)
 
