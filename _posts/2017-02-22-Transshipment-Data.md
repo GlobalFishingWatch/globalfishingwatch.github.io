@@ -19,7 +19,7 @@ The data used to make the map above is now freely available. You can [download c
 
 If you prefer Python, I wrote [a quick Python script](https://github.com/GlobalFishingWatch/data-blog-code/blob/master/2017/2/GFW_Transshipment_Data.ipynb) to make a slightly similar map to the one Nate developed above. If you download our data, and you have the right Python libraries installed, you can run this script. Instead of Nate's map, which shows each point separately, I made a raster of the density of the reefer behavior. It is just another way to display the data. Click on the images to see a higher resolution version.
 
-[![transship]({{ site.url }}{{site.baseurl}}/images/potential_transshipments.png)]({{ site.url }}{{site.baseurl}}/images/potential_transshipments.png)
+[![transship]({{ site.url }}{{site.baseurl}}/images/potential__transshipments.png)]({{ site.url }}{{site.baseurl}}/images/potential__transshipments.png)
 
 [![transship]({{ site.url }}{{site.baseurl}}/images/likely_transshipments.png)]({{ site.url }}{{site.baseurl}}/images/likely_transshipments.png)
 
