@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Transshipment Data and Report Update
+title: Temporal Footprint of Transshipment
 author: David Kroodsma
 tags: [Transshipment]
 category: [Transshipment]
 comments: True
 ---
 
-Based on a lengthly review of refrigerated cargo vessels, We have just updated our transshipment data. You can read about the update [here](http://blog.globalfishingwatch.org/2017/08/transshipment-report-refined/) or download the slightly updated report and data [here](http://globalfishingwatch.org/data).
+Based on a lengthly review of refrigerated cargo vessels, We have just updated our transshipment data. You can read about the update [here](http://blog.globalfishingwatch.org/2017/08/transshipment-report-refined/) or download the slightly updated report and data [here](http://globalfishingwatch.org/data). The overall story of transshipments, as Nate notes in [this post](http://blog.globalfishingwatch.org/2017/08/transshipment-report-refined/), is unchanged. 
 
-One thing I was curious about was how transshipments vary in time. What does it look like to plot our data in time? Using [this ipython notebook](https://github.com/GlobalFishingWatch/data-blog-code/blob/master/2017/8/http://localhost:8888/notebooks/data-blog-code/2017/8/GFW_Transshipment_Data-20170306.ipynb), I explored some of the temporal patterns in our data. The annimated gif below shows our `potential rendezvous` for every month in 2016. 
+This is a very rich dataset, giving the time and duration of thousands of potential vessel rendezvous across the globe. One thing I was curious about was how transshipments vary in time. Are transshipments more common in one month than another? Using [this ipython notebook](https://github.com/GlobalFishingWatch/data-blog-code/blob/master/2017/8/GFW_Transshipment_Data-20170306.ipynb), I explored some of the temporal patterns in our data. The annimated gif below shows our `potential rendezvous` for every month in 2016. 
 
 [![transship_annimated_gif]({{ site.url }}{{site.baseurl}}/images/transshipments_by_month_2016.gif)]({{ site.url }}{{site.baseurl}}/images/transshipments_by_month_2016.gif)
 
