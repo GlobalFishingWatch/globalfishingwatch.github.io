@@ -13,7 +13,7 @@ This is a very rich dataset, giving the time and duration of thousands of potent
 
 [![transship_annimated_gif]({{ site.url }}{{site.baseurl}}/images/transshipments_by_month_2016.gif)]({{ site.url }}{{site.baseurl}}/images/transshipments_by_month_2016.gif)
 
-Some interesting patterns: Reefers are active off the coast of Argentina mostly during the first half of the year; Transshipment behavior moves north and south off the coast of Peru, likely following the Chinese squid fleet; transshipment appears to be most common in the winter months in the Sea of Okhotsk in Russia (cold!); and transshipment off the coast of Japan appears to be most common between May and October.
+Some interesting patterns: Reefers are active off the coast of Argentina mostly during the first half of the year; transshipment behavior moves north and south off the coast of Peru, likely following the Chinese squid fleet; transshipment appears to be most common in the winter months in the Sea of Okhotsk in Russia (cold!); and transshipment off the coast of Japan appears to be most common between May and October.
 
 Visualizing this another way, we can sum the loitering behavior of reefers by latitude and see how it varies by time:
 
