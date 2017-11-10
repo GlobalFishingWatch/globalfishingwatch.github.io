@@ -4,7 +4,7 @@ title: Web Visualization at Scale
 author: Egil Moeller
 tags: [Data, Visualization]
 category: [Code]
-comments: True
+comments: False
 ---
 
 # Background

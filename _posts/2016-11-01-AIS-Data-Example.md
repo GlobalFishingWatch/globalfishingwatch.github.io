@@ -4,7 +4,7 @@ title: Example of AIS Data for One Vessel
 author: David Kroodsma
 tags: [AIS, Data]
 category: [Vessel Tracks]
-comments: True
+comments: False
 ---
 
 The sample vessel track below shows position broadcasts of the Jin Sheng No.2, a Chinese fishing vessel with mmsi number 413270430. Over three weeks in March of 2015, this vessel steamed from the central Pacific to the coast of Japan, Korea, and China. 
