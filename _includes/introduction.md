@@ -8,6 +8,7 @@ This website is your portal for the datasets and code that power [Global Fishing
  - [Fishing Activity](effort.html)
  - [Transshipment](transshipment.html)
  - [Anonymized AIS Data](anonymized.html)
+ - [Anchorages](anchorages.html)
  - [Other Data](other.html)
 
 ### Processing Architecture
