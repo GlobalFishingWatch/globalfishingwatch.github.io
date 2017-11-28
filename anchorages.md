@@ -105,14 +105,14 @@ The first means of involvement is identifying those anchorages that remain incor
   
 For example, for s2id: `56c67ca5`, the label is `KENAI` which represents the broader port, and the sublabel is `PACIFIC STAR SEAFOODS `, a more detailed description of the specific anchorage point which is positioned at this processor. If no sublabel is warranted or you don't know of an appropriate sublabel the sublabel field can simply be left empty. There is no need to provide an `s2id`, as we calculate that based upon the anchorage latitude and longitude. After updating the overrides file, submit a pull request and we will review the suggested updates and incorporate the revised naming scheme into the database. Use a similar process if you find that an important anchorage is currently missing from the database.  
   
-
-
-
   
-#### Details regarding s2 quad-tree hierarchies
-##### Google Presentation regarding S2 cell hierarchies
-https://docs.google.com/presentation/d/1Hl4KapfAENAOf4gv-pSngKwvS_jwNVHRPZTTDzXXn6Q/view#slide=id.i28
+  
+  
+  
+#### _Details regarding s2 quad-tree hierarchies_
 
-http://blog.christianperone.com/2015/08/googles-s2-geometry-on-the-sphere-cells-and-hilbert-curve/
+[https://docs.google.com/presentation/d/1Hl4KapfAENAOf4gv-pSngKwvS_jwNVHRPZTTDzXXn6Q/view#slide=id.i28](https://docs.google.com/presentation/d/1Hl4KapfAENAOf4gv-pSngKwvS_jwNVHRPZTTDzXXn6Q/view#slide=id.i28)
 
-http://schd.ws/hosted_files/user2017/32/talk.html#(4)
+[http://blog.christianperone.com/2015/08/googles-s2-geometry-on-the-sphere-cells-and-hilbert-curve/](http://blog.christianperone.com/2015/08/googles-s2-geometry-on-the-sphere-cells-and-hilbert-curve/)
+
+[http://schd.ws/hosted_files/user2017/32/talk.html#(4)](http://schd.ws/hosted_files/user2017/32/talk.html#(4))
