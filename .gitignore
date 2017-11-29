@@ -3,3 +3,9 @@ _site
 .jekyll-metadata
 .DS_Store
 .vagrant/
+
+#pycharm
+.idea/
+
+# vagrant logfile
+*.log
