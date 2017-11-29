@@ -37,7 +37,7 @@ Using AIS vessel positions from 2012 to 2017 we developed an anchorages/ports da
   
 1. To begin we applied a grid to the surface of the globe. Without special care, such a grid would have cells at the poles which encompassed different areas than those cells at the equator. However, using a special type of grid made up of what are called s2 cells, we were able to produce an gridded overlay in which all grid cells have the roughly the same area. _(This is not a new idea, and for more details on the s2 concept see some links at the bottom of the page)_. The area of each s2 cell is specified by a level, from 0 (grid cells that are 9220km on a side) to 30 (grid cells 1cm on a side). We used a s2 level of 14, which resulted in each grid cell being roughly 0.5km on a side, and with nearly equal areas across all latitudes. Each s2 cell in the grid has a unique identifier (`s2id`) which corresponds to the spatial location of that cell.    
   
-![s2cell]({{ site.url }}{{site.baseurl}}/images/s2cell_example.png)
+    ![s2cell]({{ site.url }}{{site.baseurl}}/images/s2cell_example.png)
 
 
 2. Across this grid we identified where individual vessels (specifically, individual MMSI) remained stationary (defined as when all vessel positions remain within 0.5km for at least 48hr). If within an s2 cell, at least 20 unique MMSI from 2012-2017, remained stationary we identified this cell as an anchorage point and we assigned the location (lat/lon) of the anchorage as the mean location of all the stationary periods within that cell. Note that this means an anchorage location is not necessarily in the center of the s2 cell. 
@@ -45,13 +45,7 @@ Using AIS vessel positions from 2012 to 2017 we developed an anchorages/ports da
 4. The anchorage data set continues to be extended by incorporating user contributed anchorages, as well as regional or country-specific anchorages databases (such as one provided by the Indonesian Ministry of Marine Affairs and Fisheries). All contributed anchorages, and locations(lat/lon), take precedence over AIS derived locations (with an s2 cell).  
 5. In some cases, it may be useful to utilize the anchorage points as groups of anchorages. We implemented a simple grouping scheme, by combining anchorage points located within 4 kilometers of one another into anchorage groups. The method and code for generating these groupings using Big Query and Python is described [HERE](https://github.com/GlobalFishingWatch/data-blog-code/blob/master/2017/11/AssigningAnchorageGroups.ipynb).
 
-This raw dataset is provided in several forms for ease of use.  
-[.CSV](https://storage.cloud.google.com/data_staging/unnamed_anchorages_20171120.csv?_ga=2.230939608.-693141974.1487951081) with three columns (s2id, lat, lon, anchor_group).  
-[Big Query Table](https://bigquery.cloud.google.com/table/global-fishing-watch:public_release_staging.unnamed_anchorages_20171120?pli=1)  
-[ESRI shapefile](https://storage.cloud.google.com/data_staging/unnamed_anchorages_20171120.zip?_ga=2.168097766.-693141974.1487951081)  
-[Google Fusion table](https://fusiontables.google.com/data?docid=1ueDQbxhbMgakyPwWDLoCs9xhgEz1YtJqxhDrXUZz#map:id=3)  
-[Google Earth Engine](https://code.earthengine.google.com/3766c8b2d8008e823af9745ddd127480) feature collection
-
+Links to the raw dataset, in several forms, are provided at the bottom of the pages.  
 
 ### Anchorage Naming
 
@@ -72,12 +66,7 @@ F. The same anchorage groups as described for the unnamed anchorages have been i
   
 By cloning the public [GitHub repo](https://github.com/GlobalFishingWatch/anchorages_pipeline) for this project you should be able to run the python script `pipe_anchorages.port_info_finder` to label the `unnamed_anchorages` file following our methods and using the same naming datasets, or any other dataset of anchorage names you have access to.  
 
-We provide our current mapping between `s2id` and `anchorage names`  
-[.CSV](https://storage.cloud.google.com/data_staging/anchorage_namemapping_20171120.csv?_ga=2.66247401.-693141974.1487951081)  
-[Big Query table](https://bigquery.cloud.google.com/table/global-fishing-watch:public_release_staging.s2id_anchoragenaming_map_20171120?pli=1)  
-  
-
-The complete named anchorage dataset is also available as a [.CSV](https://storage.cloud.google.com/data_staging/named_anchorages_20171120.csv?_ga=2.230939608.-693141974.1487951081), [Big Query Table](https://bigquery.cloud.google.com/table/global-fishing-watch:public_release_staging.named_anchorages_20171120?pli=1), and [ESRI Shapefile](https://storage.cloud.google.com/data_staging/named_anchorages_20171120.zip?_ga=2.128630603.-693141974.1487951081)  
+The complete named anchorage dataset is also available at the bottom of this page.
   
 
 ### Assessment
@@ -90,7 +79,7 @@ The mean number of anchorages per port matched to the World Port Index was rough
 
 This database is a work in progress and we actively request user involvement as we seek to refine this open-source resource.  
 
-The first means of involvement is identifying those anchorages that remain incorrectly named through the above naming scheme, despite our best efforts.  To contribute, please clone the public [GitHub repo](https://github.com/GlobalFishingWatch/anchorages_pipeline), and update the `anchorage_overrides.csv` file. All we need is the following information. 
+The first means of involvement is identifying those anchorages that remain incorrectly named through the above naming scheme, despite our best efforts.  To contribute, please fork the public [GitHub repo](https://github.com/GlobalFishingWatch/anchorages_pipeline) and create an additional overrides file (similar to the existing `anchorage_overrides.csv`) with your updates. All we need is the following information. 
 
 1. The iso3 country code for the country where the anchorage is located,  
 2. Your suggested label (the broader port the anchorage is within),  
@@ -105,9 +94,26 @@ The first means of involvement is identifying those anchorages that remain incor
   
 For example, for s2id: `56c67ca5`, the label is `KENAI` which represents the broader port, and the sublabel is `PACIFIC STAR SEAFOODS `, a more detailed description of the specific anchorage point which is positioned at this processor. If no sublabel is warranted or you don't know of an appropriate sublabel the sublabel field can simply be left empty. There is no need to provide an `s2id`, as we calculate that based upon the anchorage latitude and longitude. After updating the overrides file, submit a pull request and we will review the suggested updates and incorporate the revised naming scheme into the database. Use a similar process if you find that an important anchorage is currently missing from the database.  
   
+
+# Data  
   
   
+| Unnamed Anchorage Data | Named Anchorage Data   |
+|-----------------------|--------------------------|
+|   [.CSV](https://storage.cloud.google.com/gfw_public_data/unnamed_anchorages_csv_20171120.zip?_ga=2.235125830.-693141974.1487951081) | [.CSV](https://storage.cloud.google.com/gfw_public_data/named_anchorages_csv_20171120.zip?_ga=2.65641449.-693141974.1487951081)|
+[Big Query Table](https://bigquery.cloud.google.com/table/global-fishing-watch:gfw_public_data.unnamed_anchorages_20171120?pli=1)| [Big Query Table](https://bigquery.cloud.google.com/table/global-fishing-watch:gfw_public_data.named_anchorages_20171120?pli=1) |  
+[ESRI shapefile](https://storage.cloud.google.com/gfw_public_data/unnamed_anchorages_20171120_shp.zip?_ga=2.235125830.-693141974.1487951081) | [ESRI Shapefile](https://storage.cloud.google.com/gfw_public_data/named_anchorages_20171120_shp.zip?_ga=2.65641449.-693141974.1487951081)| 
+[Google Fusion table](https://fusiontables.google.com/data?docid=1ueDQbxhbMgakyPwWDLoCs9xhgEz1YtJqxhDrXUZz#map:id=3)  | | 
+[Google Earth Engine](https://code.earthengine.google.com/3766c8b2d8008e823af9745ddd127480) feature collection  | |  
+{: table}  
+   
+We also provide the current mapping between `s2id` and `anchorage names`  in a
+[.CSV](https://storage.cloud.google.com/gfw_public_data/s2id_label_mapping_20171120_csv.zip?_ga=2.139263092.-693141974.1487951081) and 
+[Big Query table](https://bigquery.cloud.google.com/table/global-fishing-watch:gfw_public_data.s2id_anchoragename_map_20171120?pli=1&tab=schema)  
   
+ <br>
+ <br>
+ <br> 
   
 #### _Details regarding s2 quad-tree hierarchies_
 
