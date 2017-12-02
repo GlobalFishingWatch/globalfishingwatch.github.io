@@ -59,7 +59,7 @@ The raw anchorage data is useful, but we have also sought to name each anchorage
 To name each anchorage (`s2id`) we used the following process:  
 A. First we apply routinely updated list of manually reviewed/corrected and user-contributed anchorage names (the current list is available on GitHub [HERE](https://github.com/GlobalFishingWatch/anchorages_pipeline/blob/master/anchorages/data/port_lists/anchorage_overrides.csv))     
 B. For any unnamed anchorages, we determined those anchorage points within 4 km of an World Port Index (WPI) port (using haversine distance), and assign the unnamed anchorage point the WPI port name.  
-C. Next if an anchorage is provided by a curated regional list and corresponds to an anchorage in our database (occurs within the same s2 cell), we assigned the curated anchorage name to the anchorage in our database.
+C. Next if an anchorage is provided by a curated regional list and corresponds to an anchorage in our database (occurs within the same s2 cell), we assigned the curated anchorage name to the anchorage in our database.  
 D. For the remaining unnamed anchorages, we determined those that are within 4 km of a `geoname 1000` city from the geonames database, and assign the anchorage point the `geoname 1000` city name.  
 E. For those anchorage points that remained unnamed, we assigned the top AIS destination name.
 F. The same anchorage groups as described for the unnamed anchorages have been included.  
