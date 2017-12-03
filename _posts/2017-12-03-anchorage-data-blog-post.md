@@ -37,7 +37,7 @@ Today Global Fishing Watch releases the first version of our global database of 
 
 ![anchorages]({{ site.url }}{{site.baseurl}}/images/anchorages_map.png)
 
-For more information regarding the development of this dataset, ways in which you can contribute to its improvement, and to access the datafiles, please visit [our anchorages data page](http://globalfishingwatch.io/anchorages.html).
+For more information regarding the development of this dataset, ways in which you can contribute to its improvement, and to access the data files, please visit [our anchorages data page](http://globalfishingwatch.io/anchorages.html).
 
 <br>
 <h3> First steps </h3>
