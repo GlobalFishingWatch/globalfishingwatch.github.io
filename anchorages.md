@@ -51,13 +51,13 @@ Links to the raw dataset, in several forms, are provided at the bottom of the pa
 
 The raw anchorage data is useful, but we have also sought to name each anchorage point (_s2id_), by referencing publicly available datasets and provisionally apply names to each anchorage. Often, a single port is made up of a number of different anchorages. We assigned names to anchorages, grouping into ports, using a multistep process and 3 primary data sources:  
 
-1. [World Port Index](http://msi.nga.mil/NGAPortal/MSI.portal?_nfpb=true&_pageLabel=msi_portal_page_62&pubCode=0015). Current data on [Github](https://github.com/GlobalFishingWatch/anchorages_pipeline/blob/master/anchorages/data/port_lists/WPI_ports.csv)
-2. [Geonames 1000](http://download.geonames.org/export/dump/cities1000.zip) database. Current data on [Github](https://github.com/GlobalFishingWatch/anchorages_pipeline/blob/master/anchorages/data/port_lists/geonames_1000.csv).
+1. [World Port Index](http://msi.nga.mil/NGAPortal/MSI.portal?_nfpb=true&_pageLabel=msi_portal_page_62&pubCode=0015). Current data on [Github](https://github.com/GlobalFishingWatch/anchorages_pipeline/blob/master/pipe_anchorages/data/port_lists/WPI_ports.csv)
+2. [Geonames 1000](http://download.geonames.org/export/dump/cities1000.zip) database. Current data on [Github](https://github.com/GlobalFishingWatch/anchorages_pipeline/blob/master/pipe_anchorages/data/port_lists/geonames_1000.csv).
 3. Top destination as reported in the AIS messages of stationary vessels that originally defined the anchorage.
 4. User contributed names and regional port databases (such as that available from the [Indonesian Ministry of Marine Affairs and Fisheries](http://pipp.djpt.kkp.go.id/)).
 
 To name each anchorage (`s2id`) we used the following process:  
-A. First we apply routinely updated list of manually reviewed/corrected and user-contributed anchorage names (the current list is available on GitHub [HERE](https://github.com/GlobalFishingWatch/anchorages_pipeline/blob/master/anchorages/data/port_lists/anchorage_overrides.csv))     
+A. First we apply routinely updated list of manually reviewed/corrected and user-contributed anchorage names (the current list is available on GitHub [HERE](https://github.com/GlobalFishingWatch/anchorages_pipeline/blob/master/pipe_anchorages/data/port_lists/anchorage_overrides.csv))     
 B. For any unnamed anchorages, we determined those anchorage points within 4 km of an World Port Index (WPI) port (using haversine distance), and assign the unnamed anchorage point the WPI port name.  
 C. Next if an anchorage is provided by a curated regional list and corresponds to an anchorage in our database (occurs within the same s2 cell), we assigned the curated anchorage name to the anchorage in our database.  
 D. For the remaining unnamed anchorages, we determined those that are within 4 km of a `geoname 1000` city from the geonames database, and assign the anchorage point the `geoname 1000` city name.  
@@ -100,15 +100,15 @@ For example, for s2id: `56c67ca5`, the label is `KENAI` which represents the bro
   
 | Unnamed Anchorage Data | Named Anchorage Data   |
 |-----------------------|--------------------------|
-|   [.CSV](https://storage.cloud.google.com/gfw_public_data/unnamed_anchorages_csv_20171120.zip?_ga=2.235125830.-693141974.1487951081) | [.CSV](https://storage.cloud.google.com/gfw_public_data/named_anchorages_csv_20171120.zip?_ga=2.65641449.-693141974.1487951081)|
+|   [.CSV](https://storage.googleapis.com/gfw_public_data/unnamed_anchorages_csv_20171120.zip) | [.CSV](https://storage.googleapis.com/gfw_public_data/named_anchorages_csv_20171120.zip)|
 [Big Query Table](https://bigquery.cloud.google.com/table/global-fishing-watch:gfw_public_data.unnamed_anchorages_20171120?pli=1)| [Big Query Table](https://bigquery.cloud.google.com/table/global-fishing-watch:gfw_public_data.named_anchorages_20171120?pli=1) |  
-[ESRI shapefile](https://storage.cloud.google.com/gfw_public_data/unnamed_anchorages_20171120_shp.zip?_ga=2.235125830.-693141974.1487951081) | [ESRI Shapefile](https://storage.cloud.google.com/gfw_public_data/named_anchorages_20171120_shp.zip?_ga=2.65641449.-693141974.1487951081)| 
+[ESRI shapefile](https://storage.googleapis.com/gfw_public_data/unnamed_anchorages_20171120_shp.zip) | [ESRI Shapefile](https://storage.googleapis.com/gfw_public_data/named_anchorages_20171120_shp.zip)| 
 [Google Fusion table](https://fusiontables.google.com/data?docid=1ueDQbxhbMgakyPwWDLoCs9xhgEz1YtJqxhDrXUZz#map:id=3)  | | 
 [Google Earth Engine](https://code.earthengine.google.com/3766c8b2d8008e823af9745ddd127480) feature collection  | |  
 {: table}  
    
 We also provide the current mapping between `s2id` and `anchorage names`  in a
-[.CSV](https://storage.cloud.google.com/gfw_public_data/s2id_label_mapping_20171120_csv.zip?_ga=2.139263092.-693141974.1487951081) and 
+[.CSV](https://storage.googleapis.com/gfw_public_data/s2id_label_mapping_20171120_csv.zip) and 
 [Big Query table](https://bigquery.cloud.google.com/table/global-fishing-watch:gfw_public_data.s2id_anchoragename_map_20171120?pli=1&tab=schema)  
   
  <br>
