@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Comparing fishing hours</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i" rel="stylesheet">
+  <link href="index.css" rel="stylesheet">
+</head>
+<body>
+  <div>
+    <h1>Fishing activity</h1>
+    <label class="radioContainer">fishing hours
+      <input type="radio" name="variableType" value="fishing" checked="checked">
+      <span class="radioBtn"></span>
+    </label>
+
+    <label class="radioContainer">number of vessels
+      <input type="radio" name="variableType" value="vessels">
+      <span class="radioBtn"></span>
+    </label>
+
+  </div>
+  <div id="chart"></div>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+  <script src="./countriesTransform.js"></script>
+  <script src="./flags.js"></script>
+  <script src="./index.js"></script>
+</body>
+</html>
