@@ -13,11 +13,11 @@ You can read about our fishing effort data [here]({{ site.url }}{{site.baseurl}}
 A public github repo with analyses and code for the paper is available [here](https://github.com/GlobalFishingWatch/Global-Footprint-of-Fisheries).
 
 Related Blog Posts:
- - How to use BigQuery to create a summary of the data for a given time period or region
- - AIS Coverage and Usage
+
+ - [Using BigQuery to Summarize GFW Data]()
+ - [AIS Coverage and Use]()
 
 ![fisheries]({{ site.url }}{{site.baseurl}}/images/3.Global Fishing Activity-dark.jpg)
-
 
 
  Page last updated: Feb 22nd, 2018

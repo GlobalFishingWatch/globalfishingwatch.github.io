@@ -4,17 +4,14 @@ layout: default
 
 # The Fishing Detection Models
 
-#### Page last udated: Feb 22, 2018
-
-We have refined and replaced our models multiple times throughout the project. Our most updated version is a neural net classifier, which is described in detail in our paper, [Tracking the Global Footprint of Fisheries]({{ site.url }}{{site.baseurl}}/global-footprint-of-fisheries.html).  
+We have refined and replaced our models multiple times throughout the project. Our most updated version is a neural net classifier, which is described in detail in our paper, [Tracking the Global Footprint of Fisheries]({{ site.url }}{{site.baseurl}}/global-footprint-of-fisheries.html). 
 
 * Neural Net Model 1.0
-  * We have developing a convolutional neural net (CNN) model
-    using the same training data as the logistic model. This model is what powers our publicaly available [fishing effort data]({{ site.url }}{{site.baseurl}}/effort.html), and code for this model is available on [this github repo](https://github.com/GlobalFishingWatch/vessel-classification). 
+  * We have developing a convolutional neural net (CNN) model using the same training data as the logistic model. This model is what powers our publicaly available [fishing effort data]({{ site.url }}{{site.baseurl}}/effort.html), and code for this model is available on [this github repo](https://github.com/GlobalFishingWatch/vessel-classification). 
 
 * [Logistic Regresssion Model 1.1](fishing__logistic_1_1.html)
   * A logistic regression model using the same features as the
-    heuristic model, and trained using a hand labeled dataset.
+    heuristic model, and trained using a hand labeled dataset. This model currently powers the [globalfishingwatch.org](http://globalfishingwatch.org) public map.
 
 * [Heuristic Model 1.0](fishing__heuristic_1_0.html)
   * Our first model was a heuristic model based on the intuition of Figure 2 below. A version of this heuristic was used by [McCaulely et al.](http://science.sciencemag.org/content/351/6278/1148) for identifying fishing effort in the Pheonix Islands Protected Area.
