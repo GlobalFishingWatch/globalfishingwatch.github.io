@@ -1,6 +1,6 @@
 const d3 = window.d3
 
-const COUNTRIES = [['AFG','Afghanistan'],['ALB','Albania'],['DZA','Algeria'],['AGO','Angola'],['ARG','Argentina'],['ARM','Armenia'],['AUS','Australia'],['AUT','Austria'],['AZE','Azerbaijan'],['BHS','Bahamas'],['BGD','Bangladesh'],['BLR','Belarus'],['BEL','Belgium'],['BLZ','Belize'],['BEN','Benin'],['BTN','Bhutan'],['BOL','Bolivia'],['BIH','Bosnia & Herzegovina'],['BWA','Botswana'],['BRA','Brazil'],['BRN','Brunei Darussalam'],['BGR','Bulgaria'],['BFA','Burkina Faso'],['BDI','Burundi'],['CPV','Cabo Verde'],['KHM','Cambodia'],['CMR','Cameroon'],['CAN','Canada'],['CAF','Central African Rep'],['TCD','Chad'],['CHL','Chile'],['CHN','China'],['COL','Colombia'],['COM','Comoros'],['COD','Congo (DRC) '],['COG','Congo'],['CRI','Costa Rica'],['CIV','Cote d\'Ivoire'], ['HRV','Croatia'],['CUB','Cuba'],['CYP','Cyprus'],['CZE','Czech Republic'],['DNK','Denmark'],['DJI','Djibouti'],['DOM','Dominican Republic'],['ECU','Ecuador'],['EGY','Egypt'],['SLV','El Salvador'],['GNQ','Equatorial Guinea'],['ERI','Eritrea'],['EST','Estonia'],['ETH','Ethiopia'],['FJI','Fiji'],['FIN','Finland'],['FRA','France'],['GAB','Gabon'],['GMB','Gambia'],['GEO','Georgia'],['DEU','Germany'],['GHA','Ghana'],['GRC','Greece'],['GTM','Guatemala'],['GNB','Guinea-Bissau'],['GIN','Guinea'],['GUY','Guyana'],['HTI','Haiti'],['HND','Honduras'],['HUN','Hungary'],['ISL','Iceland'],['IND','India'],['IDN','Indonesia'],['IRN','Iran'],['IRQ','Iraq'],['IRL','Ireland'],['ISR','Israel'],['ITA','Italy'],['JPN','Japan'],['JOR','Jordan'],['KAZ','Kazakhstan'],['KEN','Kenya'],['KWT','Kuwait'],['KGZ','Kyrgyzstan'],['LAO','Laos'],['LVA','Latvia'],['LBN','Lebanon'],['LSO','Lesotho'],['LBR','Liberia'],['LBY','Libya'],['LTU','Lithuania'],['LUX','Luxembourg'],['MKD','Macedonia'],['MDG','Madagascar'],['MWI','Malawi'],['MYS','Malaysia'],['MLI','Mali'],['MRT','Mauritania'],['MUS','Mauritius'],['MEX','Mexico'],['MDA','Moldova'],['MNG','Mongolia'],['MAR','Morocco'],['MOZ','Mozambique'],['NAM','Namibia'],['NPL','Nepal'],['NLD','Netherlands'],['NZL','New Zealand'],['NIC','Nicaragua'],['NER','Niger'],['NGA','Nigeria'],['NOR','Norway'],['OMN','Oman'],['PAK','Pakistan'],['PAN','Panama'],['PNG','Papua New Guinea'],['PRY','Paraguay'],['PER','Peru'],['PHL','Philippines'],['POL','Poland'],['PRT','Portugal'],['PRI','Puerto Rico'],['QAT','Qatar'],['ROU','Romania'],['RUS','Russian Federation'],['RWA','Rwanda'],['VCT','Saint Vincent'],['WSM','Samoa'],['STP','Sao Tome & Principe'],['SAU','Saudi Arabia'],['SEN','Senegal'],['SRB','Serbia'],['SLE','Sierra Leone'],['SVK','Slovakia'],['SVN','Slovenia'],['SLB','Solomon Islands'],['ZAF','South Africa'],['KOR','South Korea'],['ESP','Spain'],['LKA','Sri Lanka'],['SDN','Sudan'],['SUR','Suriname'],['SWZ','Swaziland'],['SWE','Sweden'],['CHE','Switzerland'],['SYR','Syria'],['TJK','Tajikistan'],['TZA','Tanzania'],['THA','Thailand'],['TGO','Togo'],['TTO','Trinidad and Tobago'],['TUN','Tunisia'],['TUR','Turkey'],['TKM','Turkmenistan'],['UGA','Uganda'],['UKR','Ukraine'],['ARE','United Arab Emirates'],['GBR','United Kingdom'],['USA','United States'],['URY','Uruguay'],['UZB','Uzbekistan'],['VUT','Vanuatu'],['VEN','Venezuela'],['VNM','Vietnam'],['YEM','Yemen'],['ZMB','Zambia'],['ZWE','Zimbabwe'],['NCL','New Caledonia'],['PYF','French Polynesia'],['REU','Reunion'],['SGP','Singapore'], ['TWN', 'Taiwan'], ['FRO', 'Faroe Islands'], ['GRL','Greenland'], ['MLT','Malta'], ['FLK','Falkland Islands'], ['SYC', 'Seychelles'], ['BHR', 'Bahrain'], ['FSM', 'Micronesia, Federated States of'], ['GUF', 'French Guiana'], ['MHL','Marshall Islands'], ['KIR','Kiribati'], ['COK', 'Cook Islands']]
+const COUNTRIES = [['WLD','All countries'],['NCH','All countries except China'],['AFG','Afghanistan'],['ALB','Albania'],['DZA','Algeria'],['AGO','Angola'],['ARG','Argentina'],['ARM','Armenia'],['AUS','Australia'],['AUT','Austria'],['AZE','Azerbaijan'],['BHS','Bahamas'],['BGD','Bangladesh'],['BLR','Belarus'],['BEL','Belgium'],['BLZ','Belize'],['BEN','Benin'],['BTN','Bhutan'],['BOL','Bolivia'],['BIH','Bosnia & Herzegovina'],['BWA','Botswana'],['BRA','Brazil'],['BRN','Brunei Darussalam'],['BGR','Bulgaria'],['BFA','Burkina Faso'],['BDI','Burundi'],['CPV','Cabo Verde'],['KHM','Cambodia'],['CMR','Cameroon'],['CAN','Canada'],['CAF','Central African Rep'],['TCD','Chad'],['CHL','Chile'],['CHN','China'],['COL','Colombia'],['COM','Comoros'],['COD','Congo (DRC) '],['COG','Congo'],['CRI','Costa Rica'],['CIV','Cote d\'Ivoire'], ['HRV','Croatia'],['CUB','Cuba'],['CYP','Cyprus'],['CZE','Czech Republic'],['DNK','Denmark'],['DJI','Djibouti'],['DOM','Dominican Republic'],['ECU','Ecuador'],['EGY','Egypt'],['SLV','El Salvador'],['GNQ','Equatorial Guinea'],['ERI','Eritrea'],['EST','Estonia'],['ETH','Ethiopia'],['FJI','Fiji'],['FIN','Finland'],['FRA','France'],['GAB','Gabon'],['GMB','Gambia'],['GEO','Georgia'],['DEU','Germany'],['GHA','Ghana'],['GRC','Greece'],['GTM','Guatemala'],['GNB','Guinea-Bissau'],['GIN','Guinea'],['GUY','Guyana'],['HTI','Haiti'],['HND','Honduras'],['HUN','Hungary'],['ISL','Iceland'],['IND','India'],['IDN','Indonesia'],['IRN','Iran'],['IRQ','Iraq'],['IRL','Ireland'],['ISR','Israel'],['ITA','Italy'],['JPN','Japan'],['JOR','Jordan'],['KAZ','Kazakhstan'],['KEN','Kenya'],['KWT','Kuwait'],['KGZ','Kyrgyzstan'],['LAO','Laos'],['LVA','Latvia'],['LBN','Lebanon'],['LSO','Lesotho'],['LBR','Liberia'],['LBY','Libya'],['LTU','Lithuania'],['LUX','Luxembourg'],['MKD','Macedonia'],['MDG','Madagascar'],['MWI','Malawi'],['MYS','Malaysia'],['MLI','Mali'],['MRT','Mauritania'],['MUS','Mauritius'],['MEX','Mexico'],['MDA','Moldova'],['MNG','Mongolia'],['MAR','Morocco'],['MOZ','Mozambique'],['NAM','Namibia'],['NPL','Nepal'],['NLD','Netherlands'],['NZL','New Zealand'],['NIC','Nicaragua'],['NER','Niger'],['NGA','Nigeria'],['NOR','Norway'],['OMN','Oman'],['PAK','Pakistan'],['PAN','Panama'],['PNG','Papua New Guinea'],['PRY','Paraguay'],['PER','Peru'],['PHL','Philippines'],['POL','Poland'],['PRT','Portugal'],['PRI','Puerto Rico'],['QAT','Qatar'],['ROU','Romania'],['RUS','Russian Federation'],['RWA','Rwanda'],['VCT','Saint Vincent'],['WSM','Samoa'],['STP','Sao Tome & Principe'],['SAU','Saudi Arabia'],['SEN','Senegal'],['SRB','Serbia'],['SLE','Sierra Leone'],['SVK','Slovakia'],['SVN','Slovenia'],['SLB','Solomon Islands'],['ZAF','South Africa'],['KOR','South Korea'],['ESP','Spain'],['LKA','Sri Lanka'],['SDN','Sudan'],['SUR','Suriname'],['SWZ','Swaziland'],['SWE','Sweden'],['CHE','Switzerland'],['SYR','Syria'],['TJK','Tajikistan'],['TZA','Tanzania'],['THA','Thailand'],['TGO','Togo'],['TTO','Trinidad and Tobago'],['TUN','Tunisia'],['TUR','Turkey'],['TKM','Turkmenistan'],['UGA','Uganda'],['UKR','Ukraine'],['ARE','United Arab Emirates'],['GBR','United Kingdom'],['USA','United States'],['URY','Uruguay'],['UZB','Uzbekistan'],['VUT','Vanuatu'],['VEN','Venezuela'],['VNM','Vietnam'],['YEM','Yemen'],['ZMB','Zambia'],['ZWE','Zimbabwe'],['TWN', 'Taiwan'],['FRO', 'Faroe Islands'],['GRL','Greenland'],['FLK','Falkland Islands'],['NCL','New Caledonia'],['GUF', 'French Guiana'],['REU','Reunion'],['SYC', 'Seychelles'],['FSM', 'Micronesia, Federated States of'],['MLT','Malta'],['KIR','Kiribati'],['MHL','Marshall Islands']]
 const NO_COUNTRY = '___'
 const NUM_CHARTS = 2
 const TOP_NUM = 40
@@ -12,12 +12,14 @@ const ANNOTATIONS = {
 const allData = {}
 const allDataArr = []
 const charts = []
+let originalX = null, currentX = null
 const timeline = {}
 let baseWidth = 0
 let chartCompareHideBtn = null
 let container = null
 let variableTypeRadios = null
-let map = null, mapCountries = null, mapTitle = null
+let zoomRadios = null
+let map = null, mapCountries = null
 
 const parseTime = d3.timeParse('%Y-%m-%d')
 
@@ -39,7 +41,7 @@ let currentPlayX = 0
 let currentPlayTimeout = null
 
 
-const margin = {top: 20, right: 20, bottom: 30, left: 38}
+const margin = {top: 20, right: 20, bottom: 18, left: 45}
 let width = 0, height = 0
 
 const update = (i) => {
@@ -47,11 +49,15 @@ const update = (i) => {
   const countryIso3 = currentIso3s[i]
   const country = allData[countryIso3]
 
-  chart.dom.svg.classed('-hidden', countryIso3 === NO_COUNTRY)
-  chartCompareHideBtn.classed('-hidden', countryIso3 === NO_COUNTRY)
+  if (i === 1) {
+    chart.dom.chart.classed('-hidden', countryIso3 === NO_COUNTRY)
+    chartCompareHideBtn.classed('-hidden', countryIso3 === NO_COUNTRY)
+  }
 
   variableTypeRadios.property('checked', (d, i) =>
     (i === 0 && currentVariableType === 'fishing') || (i === 1 && currentVariableType === 'vessels'))
+  zoomRadios.property('checked', (d, i) =>
+    (i === 0 && currentlyZoomedOut === false) || (i === 1 && currentlyZoomedOut === true))
 
   chart.dom.selector
     .selectAll('option')
@@ -62,17 +68,8 @@ const update = (i) => {
   // save state
   window.location.hash = [currentIso3s[0], currentIso3s[1], currentVariableType, currentlyZoomedOut].join(',')
 
-
-  if (countryIso3 === NO_COUNTRY) {
-    chart.data = undefined
-    return
-  }
-
   chart.data = country.data
 
-
-  const xExtent = (currentlyZoomedOut === true) ? [new Date(2012, 0), new Date(2017, 0)]: [new Date(2016, 0),  new Date(2017, 0)]
-  chart.accessors.x.domain(xExtent)
   chart.accessors.y.domain(d3.extent(chart.data, d => (currentVariableType === 'fishing') ? d.fishing : d.vessels))
 
   chart.dom.xAxis.transition()
@@ -99,7 +96,7 @@ const update = (i) => {
 
   if (ANNOTATIONS[countryIso3]) {
     const pos = d => {
-      const x = chart.accessors.x(d[0])
+      const x = currentX(d[0])
       return `translate(${x}, 0)`
     }
 
@@ -140,18 +137,20 @@ const updateAll = () => {
   for (let i = 0; i < NUM_CHARTS; i++) update(i)
 }
 
-const findValueAt = (data, currentTime) => {
+const findValueAt = (data, currentTime, forcedVariableType) => {
+  const varType = forcedVariableType || currentVariableType
   for (let r = 0; r < data.length; r++) {
     const row = data[r]
     if (row.id > currentTime) {
-      const nextRow = data[r + 1] || row
-      return row[currentVariableType] + (nextRow[currentVariableType] - row[currentVariableType]) / 2
+      const prevRow = data[r - 1] || row
+      return prevRow[varType]
     }
   }
 }
 
 const seek = (x) => {
-  const currentDate = charts[0].accessors.x.invert(x)
+  currentPlayX = x
+  const currentDate = currentX.invert(x)
   const currentTime = currentDate.getTime()
   const currentTimeHuman = window.moment(currentTime).format('ddd, ll')
 
@@ -160,9 +159,6 @@ const seek = (x) => {
 
   for (let i = 0; i < NUM_CHARTS; i++) {
     const chart = charts[i]
-    if (chart.data === undefined) {
-      continue
-    }
     const interpolatedValue = findValueAt(chart.data, currentTime)
     const interpolatedY = charts[i].accessors.y(interpolatedValue)
     if (interpolatedValue === undefined) {
@@ -182,15 +178,17 @@ const seek = (x) => {
       .style('top', `${interpolatedY}px`)
   }
 
+  timeline.currentLabel
+    .html(`${currentTimeHuman}`)
+    .style('left', `${x}px`)
+
   mapCountries.select('.moving')
     .attr('r', d => {
-      const value = findValueAt(d.data, currentTime)
+      const value = findValueAt(d.data, currentTime, 'fishing')
       return (value === undefined) ? 0 : Math.sqrt(value/Math.PI)
     })
 
-  mapTitle.html(`Worldwide: ${currentTimeHuman}`)
-
-  d3.selectAll('.currentLabel').classed('-right', x > 700)
+  d3.selectAll('.currentLabel').classed('-right', x > width - 220)
 }
 
 const togglePlay = () => {
@@ -198,34 +196,87 @@ const togglePlay = () => {
   timeline.playPauseToggle.html(currentlyPlaying ? '❚ ❚' : '▶')
 
   if (currentlyPlaying === true) {
-    // currentPlayX = 0
     currentPlayTimeout = setInterval(() => {
       currentPlayX += 1
-      seek(currentPlayX)
+      if (currentPlayX >= width) {
+        currentPlayX = 0
+        togglePlay()
+      } else {
+        seek(currentPlayX)
+      }
     }, 60)
   } else {
     clearInterval(currentPlayTimeout)
   }
 }
 
+const toggleZoom = (zoomedOut) => {
+  currentlyZoomedOut = (zoomedOut === undefined) ? !currentlyZoomedOut : zoomedOut
+  d3.selectAll('.chart').classed('-zoomedOut', currentlyZoomedOut)
+  const xExtent = (currentlyZoomedOut === true) ? [new Date(2012, 0), new Date(2017, 0)]: [new Date(2016, 0),  new Date(2017, 0)]
+  currentX.domain(xExtent)
+  updateAll()
+}
+
 const onMouseMove = () => {
   if (!charts.length || currentlyPlaying === true) {
     return
   }
+  d3.selectAll('.currentDot').classed('-hidden', false)
+  d3.selectAll('.currentLabel').classed('-hidden', false)
 
   const pageX = (d3.event !== null) ? d3.event.pageX : window.pageX || 0
+  if (pageX === undefined) {
+    return
+  }
   window.pageX = pageX
-  const offset = 64
+  const offset = margin.left + 20 //body margin
   const chartX = pageX - offset
   seek(chartX)
 }
 
 
+const onPanned = () => {
+  if (currentlyZoomedOut === true) {
+    return
+  }
+  currentX = d3.event.transform.rescaleX(originalX)
+  for (let i = 0; i < NUM_CHARTS; i++) {
+    const chart = charts[i]
+    chart.dom.xAxis.call(chart.accessors.xAxis.scale(currentX))
+    timeline.xAxisDom.call(chart.accessors.xAxis.scale(currentX))
+    chart.accessors.line.x(d => currentX(d.date))
+    chart.dom.line.attr('d', chart.accessors.line)
+    chart.accessors.area.x(d => currentX(d.date))
+    chart.dom.area.attr('d', chart.accessors.area)
+  }
+
+}
+
 const buildChart = () => {
   container = d3.select('#chart')
 
-  baseWidth = Math.max(750, document.getElementById('chart').clientWidth)
+  baseWidth = Math.max(600, document.getElementById('chart').clientWidth)
   const baseChartHeight = Math.min(250, baseWidth * .16)
+
+  width = baseWidth - margin.left - margin.right
+  height = baseChartHeight - margin.top - margin.bottom
+
+  originalX = currentX = d3.scaleTime().rangeRound([0, width])
+
+  if (currentlyZoomedOut === false) {
+    originalX.domain([new Date(2016, 0),  new Date(2017, 0)])
+  }
+
+  const topIso3 = allDataArr
+    .map(d => ({ iso3: d.iso3, maxHours: d.maxHours }))
+    .sort((a, b) => b.maxHours - a.maxHours)
+    .slice(0, TOP_NUM)
+    .map(d => d.iso3)
+
+  const selectorCountries = allDataArr
+    .map(d => ({ iso3: d.iso3, name: d.name}))
+    .sort((a, b) => a.name.localeCompare(b.name))
 
   for (let i = 0; i < NUM_CHARTS; i++) {
     const dom = {}
@@ -242,25 +293,16 @@ const buildChart = () => {
     dom.selectorFlag = selectorContainerLabel.append('div')
       .attr('class', 'selectorFlag')
 
-    const top = allDataArr
-      .sort((a, b) => b.maxHours - a.maxHours)
-      .slice(0, TOP_NUM)
-      .sort((a, b) => {
-        return a.name.localeCompare(b.name)
-      })
 
     if (i === 1) {
-      top.unshift({ iso3: NO_COUNTRY, name: '< Select...>' })
       chartCompareHideBtn = selectorContainer.append('button')
         .html('hide')
         .attr('class', 'chartCompareHideBtn')
     }
 
-    const topIso3 = top.map(d => d.iso3)
-
     dom.selector
       .selectAll('option')
-      .data(top)
+      .data(selectorCountries)
       .enter()
       .append('option')
       .attr('value', d => d.iso3)
@@ -272,18 +314,13 @@ const buildChart = () => {
       .attr('height', baseChartHeight)
     dom.g = dom.svg.append('g').attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
 
-    width = +dom.svg.attr('width') - margin.left - margin.right
-    height = +dom.svg.attr('height') - margin.top - margin.bottom
-
 
     const accessors = {
-      x: d3.scaleTime()
-        .rangeRound([0, width]),
       y: d3.scaleLinear()
         .rangeRound([height, 0])
     }
 
-    accessors.xAxis = d3.axisBottom().scale(accessors.x)
+    accessors.xAxis = d3.axisBottom().scale(originalX)
     accessors.yAxis = d3.axisLeft().scale(accessors.y)
       .tickArguments([4])
       .tickSize(0)
@@ -292,32 +329,42 @@ const buildChart = () => {
       .tickFormat('')
       .tickSize(-width)
 
+    accessors.zoom = d3.zoom()
+      // .scaleExtent([1, 10])
+      .on('zoom', onPanned)
+      .on('start', () => {
+        d3.selectAll('.currentDot').classed('-hidden', true)
+        d3.selectAll('.currentLabel').classed('-hidden', true)
+      })
+
     accessors.line = d3.line()
       .curve(d3.curveCardinal)
-      .x(d => accessors.x(d.date))
+      .x(d => originalX(d.date))
       .y(d => accessors.y((currentVariableType === 'fishing') ? d.fishing : d.vessels))
 
     accessors.area = d3.area()
       .curve(d3.curveCardinal)
-      .x(d => accessors.x(d.date))
+      .x(d => originalX(d.date))
       .y1(d => accessors.y((currentVariableType === 'fishing') ? d.fishing : d.vessels))
       .y0(accessors.y(0))
 
     // dom ---
-    dom.g.append('rect')
+
+    dom.scrollable = dom.g.append('g')
+      .attr('class', 'scrollable')
+
+    dom.scrollable.append('rect')
       .attr('width', width)
       .attr('height', height)
-      .attr('fill', '#fff')
 
-
-    dom.grid = dom.g.append('g')
+    dom.grid = dom.scrollable.append('g')
       .attr('class', 'grid')
       .call(accessors.yAxisGrid)
 
-    dom.area = dom.g.append('path')
+    dom.area = dom.scrollable.append('path')
       .attr('class', 'area')
 
-    dom.line = dom.g.append('path')
+    dom.line = dom.scrollable.append('path')
       .attr('class', 'line')
 
     // cache
@@ -325,10 +372,17 @@ const buildChart = () => {
       .attr('x', -margin.left)
       .attr('width', margin.left)
       .attr('height', height + 20)
-      .attr('fill', '#fff')
 
-    dom.xAxis = dom.g.append('g')
-    dom.xAxis.attr('transform', `translate(0, ${height})`)
+    dom.xAxisContainer = dom.g.append('g')
+      .attr('class', 'xAxisContainer')
+
+    dom.xAxisContainer.append('rect')
+      .attr('y', height)
+      .attr('width', width)
+      .attr('height', 20)
+
+    dom.xAxis = dom.xAxisContainer.append('g')
+      .attr('transform', `translate(0, ${height})`)
       .call(accessors.xAxis)
 
     dom.yAxis = dom.g.append('g')
@@ -344,6 +398,7 @@ const buildChart = () => {
 
     dom.currentDot = dom.g.append('circle')
       .attr('class', 'currentDot')
+      .attr('r', 5)
 
     dom.currentLabel = dom.chart.append('div')
       .attr('class', 'currentLabel')
@@ -355,6 +410,9 @@ const buildChart = () => {
     variableTypeRadios = d3.selectAll('input[name="variableType"]').on('change', () => {
       currentVariableType = d3.event.currentTarget.value
       updateAll()
+    })
+    zoomRadios = d3.selectAll('input[name="zoom"]').on('change', () => {
+      toggleZoom(d3.event.currentTarget.value === 'zoomedOut')
     })
 
     dom.selector.on('change', function () {
@@ -369,18 +427,20 @@ const buildChart = () => {
       return false
     })
 
-    dom.chart.on('click', () => {
-      currentlyZoomedOut = !currentlyZoomedOut
-      d3.selectAll('.chart').classed('-zoomedOut', currentlyZoomedOut)
-      updateAll()
+    dom.xAxisContainer.on('click', () => {
+      toggleZoom()
     })
 
-    dom.svg.on('mousemove', onMouseMove)
+    dom.scrollable.call(accessors.zoom).on('wheel.zoom', null)
+
+    dom.scrollable.on('mousemove', onMouseMove)
+
 
 
     charts.push({
       dom,
-      accessors
+      accessors,
+      data: []
     })
   }
 
@@ -394,10 +454,10 @@ const buildChart = () => {
 
 
 const buildMap = () => {
-  mapTitle = container.append('h2')
+  //mapTitle = container.append('h2')
   const mapSvg = container.append('svg')
     .attr('class', 'map')
-    .attr('viewBox', '0 0 1200 800')
+    .attr('viewBox', '0 0 1200 590')
     .attr('preserveAspectRatio', 'xMidYMin meet')
 
   document.querySelector('.map').innerHTML = '<pattern id="diagonalHatch" width="4" height="4" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">\n' +
@@ -405,9 +465,10 @@ const buildMap = () => {
     '</pattern>'
 
   map = mapSvg.append('g')
+    .attr('transform', 'translate(1, 1)')
   mapCountries = map
     .selectAll('g')
-    .data(allDataArr)
+    .data(allDataArr.filter(d => ['WLD','NCH', NO_COUNTRY].indexOf(d.iso3) === -1))
     .enter()
     .append('g')
     .attr('class', 'country')
@@ -420,7 +481,7 @@ const buildMap = () => {
     .attr('r', d => d.maxHoursR)
     .attr('cx', d => d.maxHoursR)
     .attr('cy', d => d.maxHoursR)
-    .attr('fill', 'url(#diagonalHatch)')
+    // .attr('fill', '#ff0000')
 
   mapCountries
     .append('circle')
@@ -433,12 +494,36 @@ const buildMap = () => {
     .attr('text-anchor', 'middle')
     .attr('x', d => d.maxHoursR)
     .attr('y', d => d.maxHoursR - 6)
+    // .attr('font-size', 1)
     .html(d => d.name)
 
   mapCountries.on('click', (d) => {
-    currentIso3s[1] = d.iso3
-    update(1)
+    const currentLineChartToShow = (currentIso3s[1] === NO_COUNTRY) ? 0 : 1
+    currentIso3s[currentLineChartToShow] = d.iso3
+    update(currentLineChartToShow)
   })
+
+
+  const legend = map.append('g')
+    .attr('class', 'country legend')
+    .attr('transform', 'translate(0, 565)')
+  legend.append('circle')
+    .attr('class', 'static')
+    .attr('r', 8)
+    .attr('cx', 12)
+  legend.append('text')
+    .html('maximum extent')
+    .attr('x', 26)
+    .attr('y', -7)
+  legend.append('circle')
+    .attr('class', 'moving')
+    .attr('r', 8)
+    .attr('cx', 170)
+  legend.append('text')
+    .html('value for current day')
+    .attr('x', 185)
+    .attr('y', -7)
+
 
   const timelineDom = container.append('div')
     .attr('class', 'timeline')
@@ -455,6 +540,7 @@ const buildMap = () => {
 
   timeline.currentDot = g.append('circle')
     .attr('class', 'currentDot')
+    .attr('r', 5)
 
   timeline.currentLabel = timelineDom.append('div')
     .attr('class', 'currentLabel')
@@ -467,17 +553,25 @@ const buildMap = () => {
     })
 }
 
+let headers = new Headers()
+headers.append('Authorization', 'Basic ' + btoa('gfw:fishing'))
 
-fetch('./allcountries2012-2016.csv')
+fetch('./allcountries2012-2016.csv', {
+  method:'GET',
+  headers
+})
   .then(resp => resp.text())
   .then(csv => {
     d3.csvParse(csv, d => {
       const iso3 = d.flag
       if (allData[iso3] === undefined) {
-        const name = COUNTRIES.find(c => c[0] === iso3)
+        const country = COUNTRIES.find(c => c[0] === iso3)
+        if (country === undefined) {
+          return
+        }
         allData[iso3] = {
           iso3,
-          name: (name === undefined) ? iso3 : name[1],
+          name: country[1],
           data: [],
         }
       }
@@ -491,11 +585,7 @@ fetch('./allcountries2012-2016.csv')
       })
     })
 
-    // const allCountries = {
-    //   iso3: 'ALL',
-    //   name: 'all countries',
-    //   data: []
-    // }
+
     Object.keys(allData).forEach(iso3 => {
       const country = allData[iso3]
       const countryData = country.data.sort((da, db) => da.id - db.id)
@@ -503,36 +593,20 @@ fetch('./allcountries2012-2016.csv')
       country.maxHoursR = Math.sqrt(country.maxHours/Math.PI)
 
       allDataArr.push(country)
-
-      // countryData.forEach(cd => {
-      //   let at = allCountries.data.find(ad => ad.id === cd.id)
-      //   if (at === undefined) {
-      //     at = {
-      //       id: cd.id,
-      //       date: cd.date,
-      //       fishing: 0,
-      //       vessels: 0
-      //     }
-      //     allCountries.data.push(at)
-      //   }
-      //   at.fishing += cd.fishing
-      //   at.vessels += cd.vessels
-      // })
-
-      // if (country.maxHours < 00) {
-      //   delete allData[iso3]
-      // } else {
-      //   allDataArr.push(country)
-      // }
-
-
     })
 
-    // allData['ALL'] = allCountries
-    // allDataArr.push(allCountries)
+    allData[NO_COUNTRY] = {
+      iso3: NO_COUNTRY,
+      name: '< Select...>',
+      data: [],
+      maxHours: 999999
+    }
+    allDataArr.push(allData[NO_COUNTRY])
+
 
     buildChart()
     buildMap()
     updateAll()
+    toggleZoom(currentlyZoomedOut)
   })
 

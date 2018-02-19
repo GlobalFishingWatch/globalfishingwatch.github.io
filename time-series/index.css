@@ -1,22 +1,41 @@
-body, text {
+body, text, select {
     font-family: 'Roboto Condensed', sans-serif;
     color: #011137;
     fill: #011137;
+}
+
+body {
     margin: 20px;
-    /*font-size: 15px;*/
+    background: #fffff9;
+    font-size: 13px;
+}
+
+.logo {
+    position: absolute;
+    top: 8px;
+    right: 40px;
+}
+
+rect {
+    fill: #fffff9;
 }
 
 button:focus {outline:0;}
 
 h1 {
-    margin: 0;
+    margin: 0 0 .8em;
     font-size: 1.5em;
-    display: inline-block;
 }
 
 h2 {
     font-size: 1em;
     margin-bottom: 0;
+}
+
+.radioGroup {
+    display: inline-block;
+    margin-right: 3em;
+    margin-bottom: 1.1em;
 }
 
 .radioContainer {
@@ -26,7 +45,7 @@ h2 {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    margin-left: 20px;
+    margin-right: .5em;
     padding-left: 24px;
 }
 
@@ -78,16 +97,16 @@ h2 {
 
 
 .chart svg {
-    transition: height 1s;
-    cursor: zoom-out;
+    transition: height .1s;
 }
 
-.chart.-zoomedOut svg {
-    cursor: zoom-in;
-}
 
-.chart svg.-hidden {
+.chart.-hidden svg {
     height: 0;
+}
+
+.chart.-hidden .currentLabel {
+    display: none;
 }
 
 .selectorContainer h2 {
@@ -121,7 +140,7 @@ h2 {
     right: 0;
     bottom: 0;
     font-size: 50%;
-    line-height: 30px;
+    line-height: 25px;
     padding: 0 7px;
     background: #8abbc7;
     color: white;
@@ -131,7 +150,7 @@ h2 {
 
 .selectorFlag {
     position: absolute;
-    top: 1px;
+    top: -2px;
     left: 5px;
 }
 
@@ -148,6 +167,17 @@ h2 {
 }
 
 
+
+.chart:not(.-zoomedOut) .scrollable {
+    cursor: move;
+}
+
+.chart .xAxisContainer {
+    cursor: zoom-out;
+}
+.chart.-zoomedOut .xAxisContainer {
+    cursor: zoom-in;
+}
 
 .yAxis-text {
     fill: #000;
@@ -178,26 +208,44 @@ h2 {
 }
 
 .currentDot {
-    r: 5;
     fill: white;
     stroke: #174084;
     stroke-width: 3;
+    pointer-events: none;
 }
 
 .currentLabel {
+    color: #174084;
     position: absolute;
-    margin-left: 62px;
-    margin-top: 34px;
+    margin-left: 55px;
+    margin-top: 40px;
     background: rgba(255,255,255,.9);
-    width: 240px;
+    width: 190px;
     padding: 4px;
     border-radius: 6px;
+    pointer-events: none;
 }
 
 .currentLabel.-right {
-    margin-left: -240px;
+    margin-left: -160px;
     text-align: right;
 }
+
+.timeline .currentLabel {
+    margin-left: 48px;
+    margin-top: 0px;
+    top: -4px;
+    background: none;
+}
+
+.timeline .currentLabel.-right {
+    margin-left: -160px;
+}
+
+.currentLabel.-hidden, .currentDot.-hidden {
+    display: none;
+}
+
 
 .annotations circle, .annotations text {
     fill: #ef4323;
@@ -218,47 +266,53 @@ h2 {
 }
 
 .map {
+    margin-top: 2em;
     min-width: 750px;
     width: 100%;
 }
 
-.map .country {
+.country {
     cursor: pointer;
 }
 
-.map .-small text {
+.country.-small text {
     visibility: hidden;
 }
 
-.map .-small:hover text {
+.country.-small:hover text {
     visibility: visible;
 }
 
-.map .static {
+.country .static {
     stroke: #174084;
     stroke-width: .5;
+    fill:url(#diagonalHatch);
     /*stroke-dasharray: 4, 2*/
 }
 
-.map .moving {
+.country .moving {
     fill: #174084;
     fill-opacity: .5;
 }
 
-.map .-selected .static {
+.country.-selected .static, .country:hover .static {
     stroke: #ef4323;
 }
 
-.map .-selected .moving {
+.country.-selected .moving, .country:hover .moving {
     fill: #ef4323;
 }
 
-.map .-selected text {
+.country.-selected text, .country:hover text {
     fill: #ef4323;
 }
 
-.map text {
+.country text {
     dominant-baseline: hanging;
+}
+
+.legend {
+    pointer-events: none;
 }
 
 .timeline {

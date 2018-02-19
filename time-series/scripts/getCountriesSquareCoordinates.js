@@ -3,6 +3,7 @@
 var parseString = require('xml2js').parseString
 var xml = require('fs').readFileSync('./countriesTransform.svg')
 var outCountries= {}
+
 parseString(xml, function (err, result) {
   var countries = result.svg.g[0].g[0].g
   countries.forEach(country => {
