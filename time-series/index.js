@@ -4,6 +4,8 @@ const COUNTRIES = [['WLD','All countries'],['NCH','All countries except China'],
 const NO_COUNTRY = '___'
 const NUM_CHARTS = 2
 const TOP_NUM = 40
+const BASE_SHARE_URL = 'http://globalfishingwatch.io/time-series'
+const BASE_SHARE_IFRAME_CODE = '<iframe allowfullscreen="true" width="730" height="650" src="$baseUrl" />'
 
 const ANNOTATIONS = {
   // CHN: [[new Date(2016, 6, 1), 'Moratorium']]
@@ -20,6 +22,7 @@ let container = null
 let variableTypeRadios = null
 let zoomRadios = null
 let map = null, mapCountries = null
+let shareDom = {}
 
 const parseTime = d3.timeParse('%Y-%m-%d')
 
@@ -27,7 +30,7 @@ const parseTime = d3.timeParse('%Y-%m-%d')
 let urlState
 if (window.location.hash !== '') {
   let urlStateArr = window.location.hash.replace('#', '').split(',')
-  if (urlStateArr.length === 4) {
+  if (urlStateArr.length === 5) {
     urlState = urlStateArr
   }
 }
@@ -35,6 +38,7 @@ if (window.location.hash !== '') {
 let currentlyZoomedOut = urlState ? urlState[3] === 'true' : false
 let currentIso3s = urlState ? [urlState[0], urlState[1]] : ['CHN', NO_COUNTRY]
 let currentVariableType = urlState ? urlState[2] : 'fishing'
+let currentAllowMap = urlState ? urlState[4] === 'true' : true
 
 let currentlyPlaying = false
 let currentPlayX = 0
@@ -66,7 +70,12 @@ const update = (i) => {
   chart.dom.selectorFlag.html((country) ? window.flags[country.name] : '')
 
   // save state
-  window.location.hash = [currentIso3s[0], currentIso3s[1], currentVariableType, currentlyZoomedOut].join(',')
+  window.location.hash = [currentIso3s[0], currentIso3s[1], currentVariableType, currentlyZoomedOut, currentAllowMap].join(',')
+  const baseUrl = `${BASE_SHARE_URL}${window.location.hash}`
+  shareDom.link.value = baseUrl
+  shareDom.linkCopy.innerText = 'Copy'
+  shareDom.iframe.value = BASE_SHARE_IFRAME_CODE.replace('$baseUrl', baseUrl)
+  shareDom.iframeCopy.innerText = 'Copy'
 
   chart.data = country.data
 
@@ -231,7 +240,7 @@ const onMouseMove = () => {
   }
   window.pageX = pageX
   const offset = margin.left + 20 //body margin
-  const chartX = pageX - offset
+  const chartX = Math.max(0, pageX - offset)
   seek(chartX)
 }
 
@@ -457,8 +466,9 @@ const buildMap = () => {
   //mapTitle = container.append('h2')
   const mapSvg = container.append('svg')
     .attr('class', 'map')
-    .attr('viewBox', '0 0 1200 590')
+    .attr('viewBox', '0 0 1130 580')
     .attr('preserveAspectRatio', 'xMidYMin meet')
+    .classed('-hidden', currentAllowMap === false)
 
   document.querySelector('.map').innerHTML = '<pattern id="diagonalHatch" width="4" height="4" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">\n' +
     '  <line x1="0" y1="0" x2="0" y2="4" style="stroke:#8abbc7; stroke-width:.4" />\n' +
@@ -527,6 +537,7 @@ const buildMap = () => {
 
   const timelineDom = container.append('div')
     .attr('class', 'timeline')
+    .classed('-hidden', currentAllowMap === false)
 
   const timelineSvg = timelineDom.append('svg')
     .attr('width', baseWidth)
@@ -551,6 +562,26 @@ const buildMap = () => {
     .on('click', () => {
       togglePlay()
     })
+}
+
+const buildShare = () => {
+  shareDom = {
+    link: document.querySelector('.js-share-content-link'),
+    iframe: document.querySelector('.js-share-content-iframe'),
+    linkCopy: document.querySelector('.js-share-content-link-copy'),
+    iframeCopy: document.querySelector('.js-share-content-iframe-copy')
+  }
+
+  shareDom.linkCopy.addEventListener('click', () => {
+    shareDom.link.select()
+    document.execCommand('copy')
+    shareDom.linkCopy.innerText = 'Copied !'
+  })
+  shareDom.iframeCopy.addEventListener('click', () => {
+    shareDom.iframe.select()
+    document.execCommand('copy')
+    shareDom.iframeCopy.innerText = 'Copied !'
+  })
 }
 
 let headers = new Headers()
@@ -604,6 +635,7 @@ fetch('./allcountries2012-2016.csv', {
     allDataArr.push(allData[NO_COUNTRY])
 
 
+    buildShare()
     buildChart()
     buildMap()
     updateAll()

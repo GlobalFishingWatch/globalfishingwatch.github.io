@@ -28,7 +28,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1em;
+    font-size: 1.2em;
     margin-bottom: 0;
 }
 
@@ -267,8 +267,12 @@ h2 {
 
 .map {
     margin-top: 2em;
-    min-width: 750px;
+    min-width: 700px;
     width: 100%;
+}
+
+.map.-hidden {
+    display: none;
 }
 
 .country {
@@ -319,15 +323,50 @@ h2 {
     position: relative;
 }
 
+
+.timeline.-hidden {
+    display: none;
+}
+
 .playPauseToggle {
     position: absolute;
     left: 0;
     top: 4px;
+    width: 30px;
+}
+
+button {
     border: 0;
     background: #8abbc7;
     color: #fff;
     border-radius: 6px;
     padding: 8px;
-    width: 30px;
     cursor: pointer;
+    height: 30px;
+}
+
+#share {
+    margin-top: 70px;
+}
+
+#share input {
+    width: 350px;
+    height: 32px;
+    padding: 0 5px;
+    border-radius: 5px;
+    border: 1px solid #8abbc7;
+}
+
+.share-or {
+    margin: 10px 0;
+    width: 240px;
+    text-align: center;
+}
+
+.share-or::before, .share-or::after {
+    border-top: 1px solid #8abbc7;
+    content: "";
+    display: inline-block;
+    top: 50%;
+    width: 100px;
 }

@@ -14,8 +14,9 @@ A public github repo with analyses and code for the paper is available [here](ht
 
 Related Blog Posts:
 
- - [Using BigQuery to Summarize GFW Data]()
+ - [Using BigQuery to Summarize GFW Data]({{ site.url }}{{site.baseurl}}/2018/02/22/our-data-in-bigquery.html)
  - [AIS Coverage and Use]()
+ - [Global Fishing Watch Data in Earth Engine]({{ site.url }}{{site.baseurl}}/earthengine/2018/02/12/our-data-in-earth-engine.html)
 
 ![fisheries]({{ site.url }}{{site.baseurl}}/images/3.Global Fishing Activity-dark.jpg)
 
