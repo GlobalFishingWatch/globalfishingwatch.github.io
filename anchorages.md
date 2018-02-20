@@ -51,34 +51,19 @@ Links to the raw dataset, in several formats, are provided at the bottom of this
 
 The raw anchorage data is useful, but we have also sought to name each anchorage point (_s2id_) by referencing publicly available datasets and provisionally applying names to each anchorage. Often, a single port is made up of a number of different anchorages. We assigned names to anchorages, grouping anchorages into ports using a multistep process and 3 primary data sources:  
 
-<<<<<<< HEAD
-1. [World Port Index](http://msi.nga.mil/NGAPortal/MSI.portal?_nfpb=true&_pageLabel=msi_portal_page_62&pubCode=0015). Current data on [Github](https://github.com/GlobalFishingWatch/anchorages_pipeline/blob/master/pipe_anchorages/data/port_lists/WPI_ports.csv)
+1. [World Port Index](http://msi.nga.mil/NGAPortal/MSI.portal?_nfpb=true&_pageLabel=msi_portal_page_62&pubCode=0015). Current data on [Github](https://github.com/GlobalFishingWatch/anchorages_pipeline/blob/master/pipe_anchorages/data/port_lists/WPI_ports.csv).
 2. [Geonames 1000](http://download.geonames.org/export/dump/cities1000.zip) database. Current data on [Github](https://github.com/GlobalFishingWatch/anchorages_pipeline/blob/master/pipe_anchorages/data/port_lists/geonames_1000.csv).
-3. Top destination as reported in the AIS messages of stationary vessels that originally defined the anchorage.
-4. User contributed names and regional port databases (such as that available from the [Indonesian Ministry of Marine Affairs and Fisheries](http://pipp.djpt.kkp.go.id/)).
-
-To name each anchorage (`s2id`) we used the following process:  
-A. First we apply routinely updated list of manually reviewed/corrected and user-contributed anchorage names (the current list is available on GitHub [HERE](https://github.com/GlobalFishingWatch/anchorages_pipeline/blob/master/pipe_anchorages/data/port_lists/anchorage_overrides.csv))     
-B. For any unnamed anchorages, we determined those anchorage points within 4 km of an World Port Index (WPI) port (using haversine distance), and assign the unnamed anchorage point the WPI port name.  
-C. Next if an anchorage is provided by a curated regional list and corresponds to an anchorage in our database (occurs within the same s2 cell), we assigned the curated anchorage name to the anchorage in our database.  
-D. For the remaining unnamed anchorages, we determined those that are within 4 km of a `geoname 1000` city from the geonames database, and assign the anchorage point the `geoname 1000` city name.  
-E. For those anchorage points that remained unnamed, we assigned the top AIS destination name.
-F. The same anchorage groups as described for the unnamed anchorages have been included.  
-=======
-1. [World Port Index](http://msi.nga.mil/NGAPortal/MSI.portal?_nfpb=true&_pageLabel=msi_portal_page_62&pubCode=0015). Current data on [Github](https://github.com/GlobalFishingWatch/anchorages_pipeline/blob/master/anchorages/data/port_lists/WPI_ports.csv).
-2. [Geonames 1000](http://download.geonames.org/export/dump/cities1000.zip) database. Current data on [Github](https://github.com/GlobalFishingWatch/anchorages_pipeline/blob/master/anchorages/data/port_lists/geonames_1000.csv).
 3. Top destination as reported in the AIS messages of stationary vessels that defined the anchorage.
 4. User contributed names and regional port databases (such as the one from the [Indonesian Ministry of Marine Affairs and Fisheries](http://pipp.djpt.kkp.go.id/)).
 
 To name each anchorage (`s2id`) we used the following process:  
 
-1. First, we apply any names from the manually reviewed/corrected and user-contributed anchorage names (the current list is available on GitHub [HERE](https://github.com/GlobalFishingWatch/anchorages_pipeline/blob/master/anchorages/data/port_lists/anchorage_overrides.csv))     
+1. First, we apply any names from the manually reviewed/corrected and user-contributed anchorage names (the current list is available on GitHub [HERE](https://github.com/GlobalFishingWatch/anchorages_pipeline/blob/master/pipe_anchorages/data/port_lists/anchorage_overrides.csv))     
 2. For any unnamed anchorages, we identify those anchorage points that are within 4 km of a World Port Index (WPI) port (using haversine distance), and assign the unnamed anchorage point the WPI port name.  
 3. Next, if an anchorage is provided by a curated regional list and corresponds to an anchorage in our database (occurs within the same s2 cell), we assign the curated anchorage name to the anchorage in our database.  
 4. For the remaining unnamed anchorages, we identify those that are within 4 km of a `geoname 1000` city from the geonames database, and assign the anchorage point the `geoname 1000` city name.  
 5. For those anchorage points that remained unnamed, we assign the top AIS destination name.
 6. The same anchorage groups as described for the unnamed anchorages have been included.  
->>>>>>> 5ec22442d2c90060b621d0f8f04a6bf48bcdf2f8
   
 By cloning the public [GitHub repo](https://github.com/GlobalFishingWatch/anchorages_pipeline) for this project, you should be able to run the python script `pipe_anchorages.port_info_finder` to label the `unnamed_anchorages` file following our methods and using the same naming datasets, or any other dataset of anchorage names you have access to.  
 
