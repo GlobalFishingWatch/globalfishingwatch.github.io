@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1114px" height="533px" viewBox="0 0 1114 533" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>countriesTransform</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="countriesTransform">
+            <g id="Group" transform="translate(574.000000, 0.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="230.434996" cy="230.434996" r="230.434996"></circle>
+                <text id="China" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="228.934996" y="224.434996">China</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(429.000000, 232.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="67.9607071" cy="67.9607071" r="67.9607071"></circle>
+                <text id="Italy" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="66.9607071" y="61.9607071">Italy</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(219.000000, 243.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="57.2278209" cy="57.2278209" r="57.2278209"></circle>
+                <text id="Spain" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="55.7278209" y="51.2278209">Spain</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(1011.000000, 378.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="51.4510965" cy="51.4510965" r="51.4510965"></circle>
+                <text id="Taiwan" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="49.4510965" y="45.4510965">Taiwan</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(332.000000, 222.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="49.6948465" cy="49.6948465" r="49.6948465"></circle>
+                <text id="France" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="47.6948465" y="43.6948465">France</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(322.000000, 0.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="44.8048913" cy="44.8048913" r="44.8048913"></circle>
+                <text id="Norway" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="42.8048913" y="38.8048913">Norway</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(264.000000, 84.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="44.6916063" cy="44.6916063" r="44.6916063"></circle>
+                <text id="United-Kingdom" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="40.6916063" y="38.6916063">United Kingdom</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(0.000000, 140.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="43.0763602" cy="43.0763602" r="43.0763602"></circle>
+                <text id="United-States" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="39.5763602" y="37.0763602">United States</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(1026.000000, 290.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="42.965673" cy="42.965673" r="42.965673"></circle>
+                <text id="South-Korea" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="39.965673" y="36.965673">South Korea</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(339.000000, 136.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="42.4172981" cy="42.4172981" r="42.4172981"></circle>
+                <text id="Netherlands" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="39.4172981" y="36.4172981">Netherlands</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(1027.000000, 85.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="42.2763808" cy="42.2763808" r="42.2763808"></circle>
+                <text id="Japan" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="40.7763808" y="36.2763808">Japan</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(184.000000, 0.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="38.2575293" cy="38.2575293" r="38.2575293"></circle>
+                <text id="Iceland" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="36.2575293" y="32.2575293">Iceland</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(576.000000, 0.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="38.0734408" cy="38.0734408" r="38.0734408"></circle>
+                <text id="Russian-Federation" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="33.5734408" y="32.0734408">Russian Federation</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(386.000000, 79.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="30.9638033" cy="30.9638033" r="30.9638033"></circle>
+                <text id="Denmark" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="28.4638033" y="24.9638033">Denmark</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(161.000000, 296.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="29.5284601" cy="29.5284601" r="29.5284601"></circle>
+                <text id="Portugal" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="27.5284601" y="23.5284601">Portugal</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(60.000000, 423.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="28.0670213" cy="28.0670213" r="28.0670213"></circle>
+                <text id="Argentina" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="25.5670213" y="22.0670213">Argentina</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(212.000000, 83.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="25.3988552" cy="25.3988552" r="25.3988552"></circle>
+                <text id="Ireland" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="23.3988552" y="19.3988552">Ireland</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(503.000000, 366.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="25.0990643" cy="25.0990643" r="25.0990643"></circle>
+                <text id="Greece" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="23.0990643" y="19.0990643">Greece</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(555.000000, 386.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="24.8671337" cy="24.8671337" r="24.8671337"></circle>
+                <text id="Turkey" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="22.8671337" y="18.8671337">Turkey</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(316.000000, 471.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="23.5116612" cy="23.5116612" r="23.5116612"></circle>
+                <text id="South-Africa" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="20.5116612" y="17.5116612">South Africa</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(446.000000, 137.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="23.2640044" cy="23.2640044" r="23.2640044"></circle>
+                <text id="Germany" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="20.7640044" y="17.2640044">Germany</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(546.000000, 339.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="23.1418323" cy="23.1418323" r="23.1418323"></circle>
+                <text id="Croatia" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="21.1418323" y="17.1418323">Croatia</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(21.000000, 92.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="21.6413369" cy="21.6413369" r="21.6413369"></circle>
+                <text id="Canada" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="19.6413369" y="15.6413369">Canada</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(251.000000, 52.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="20.6349667" cy="20.6349667" r="20.6349667"></circle>
+                <text id="Faroe-Islands" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="17.1349667" y="14.6349667">Faroe Islands</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(412.000000, 20.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="19.8200496" cy="19.8200496" r="19.8200496"></circle>
+                <text id="Sweden" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="17.8200496" y="13.8200496">Sweden</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(313.000000, 201.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="18.6071853" cy="18.6071853" r="18.6071853"></circle>
+                <text id="Belgium" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="16.6071853" y="12.6071853">Belgium</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(993.000000, 463.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="16.9611225" cy="16.9611225" r="16.9611225"></circle>
+                <text id="Vanuatu" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="14.9611225" y="10.9611225">Vanuatu</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(83.000000, 383.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="16.944593" cy="16.944593" r="16.944593"></circle>
+                <text id="Uruguay" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="14.944593" y="10.944593">Uruguay</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(718.000000, 455.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="16.8968383" cy="16.8968383" r="16.8968383"></circle>
+                <text id="India" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="15.3968383" y="10.8968383">India</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(992.000000, 500.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="16.0984552" cy="16.0984552" r="16.0984552"></circle>
+                <text id="New-Zealand" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="13.0984552" y="10.0984552">New Zealand</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(453.000000, 52.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="15.6988744" cy="15.6988744" r="15.6988744"></circle>
+                <text id="Latvia" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="14.1988744" y="9.69887438">Latvia</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(244.000000, 385.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="15.3994548" cy="15.3994548" r="15.3994548"></circle>
+                <text id="Morocco" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="13.3994548" y="9.39945481">Morocco</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(889.000000, 485.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="15.1241881" cy="15.1241881" r="15.1241881"></circle>
+                <text id="Australia" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="13.1241881" y="9.12418808">Australia</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(1033.000000, 485.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="15.0599845" cy="15.0599845" r="15.0599845"></circle>
+                <text id="Fiji" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="14.0599845" y="9.05998449">Fiji</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(506.000000, 145.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="15" cy="15" r="15"></circle>
+                <text id="Poland" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="13" y="9">Poland</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(45.000000, 399.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="14.6537934" cy="14.6537934" r="14.6537934"></circle>
+                <text id="Chile" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="13.1537934" y="8.65379343">Chile</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(95.000000, 346.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="14.2322841" cy="14.2322841" r="14.2322841"></circle>
+                <text id="Brazil" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="12.7322841" y="8.2322841">Brazil</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(455.000000, 0.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="13.8295771" cy="13.8295771" r="13.8295771"></circle>
+                <text id="Finland" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="11.8295771" y="7.82957709">Finland</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(276.000000, 426.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="13.7054367" cy="13.7054367" r="13.7054367"></circle>
+                <text id="Ghana" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="11.7054367" y="7.70543675">Ghana</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(46.000000, 368.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="13.6655622" cy="13.6655622" r="13.6655622"></circle>
+                <text id="Peru" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="12.1655622" y="7.66556224">Peru</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(143.000000, 2.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="13.4649389" cy="13.4649389" r="13.4649389"></circle>
+                <text id="Greenland" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="10.9649389" y="7.46493894">Greenland</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(908.000000, 454.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="13.1455046" cy="13.1455046" r="13.1455046"></circle>
+                <text id="Malaysia" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="11.1455046" y="7.14550463">Malaysia</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(456.000000, 85.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="12.560068" cy="12.560068" r="12.560068"></circle>
+                <text id="Lithuania" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="10.060068" y="6.56006799">Lithuania</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(291.000000, 469.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="11.8420356" cy="11.8420356" r="11.8420356"></circle>
+                <text id="Namibia" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="9.84203562" y="5.84203562">Namibia</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(429.000000, 357.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="11.3629492" cy="11.3629492" r="11.3629492"></circle>
+                <text id="Malta" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="9.86294917" y="5.36294917">Malta</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(113.000000, 460.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="11.2816503" cy="11.2816503" r="11.2816503"></circle>
+                <text id="Falkland-Islands" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="7.28165029" y="5.28165029">Falkland Islands</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(389.000000, 442.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="11.0046581" cy="11.0046581" r="11.0046581"></circle>
+                <text id="Seychelles" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="8.50465807" y="5.00465807">Seychelles</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(29.000000, 229.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="10.7411891" cy="10.7411891" r="10.7411891"></circle>
+                <text id="Mexico" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="8.74118906" y="4.74118906">Mexico</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(458.000000, 29.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="10.7209506" cy="10.7209506" r="10.7209506"></circle>
+                <text id="Estonia" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="8.72095061" y="4.72095061">Estonia</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(593.000000, 439.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="10.6502522" cy="10.6502522" r="10.6502522"></circle>
+                <text id="Iran" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="9.65025216" y="4.65025216">Iran</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(535.000000, 450.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="10.3231599" cy="10.3231599" r="10.3231599"></circle>
+                <text id="Qatar" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="8.82315988" y="4.32315988">Qatar</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(935.000000, 449.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="9.95591037" cy="9.95591037" r="9.95591037"></circle>
+                <text id="Micronesia,-Federated-States-of" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="2.45591037" y="5.95591037">Micronesia, Federated States of</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(957.000000, 495.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="9.46530437" cy="9.46530437" r="9.46530437"></circle>
+                <text id="New-Caledonia" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="5.96530437" y="3.46530437">New Caledonia</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(224.000000, 431.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="9.21993837" cy="9.21993837" r="9.21993837"></circle>
+                <text id="Senegal" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="7.21993837" y="3.21993837">Senegal</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(74.000000, 351.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="8.90410959" cy="8.90410959" r="8.90410959"></circle>
+                <text id="French-Guiana" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="5.40410959" y="2.90410959">French Guiana</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(551.000000, 234.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="8.89191939" cy="8.89191939" r="8.89191939"></circle>
+                <text id="Bulgaria" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="6.89191939" y="2.89191939">Bulgaria</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(571.000000, 441.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="8.7730674" cy="8.7730674" r="8.7730674"></circle>
+                <text id="Israel" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="7.2730674" y="2.7730674">Israel</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(293.000000, 451.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="8.53521291" cy="8.53521291" r="8.53521291"></circle>
+                <text id="Angola" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="6.53521291" y="2.53521291">Angola</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(551.000000, 153.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="8.36911326" cy="8.36911326" r="8.36911326"></circle>
+                <text id="Ukraine" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="6.36911326" y="2.36911326">Ukraine</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(943.000000, 472.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="8.34535591" cy="8.34535591" r="8.34535591"></circle>
+                <text id="Papua-New-Guinea" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="3.84535591" y="4.34535591">Papua New Guinea</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(478.000000, 376.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="8.27501831" cy="8.27501831" r="8.27501831"></circle>
+                <text id="Cyprus" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="6.27501831" y="2.27501831">Cyprus</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(38.000000, 352.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="8.16809896" cy="8.16809896" r="8.16809896"></circle>
+                <text id="Colombia" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="5.66809896" y="2.16809896">Colombia</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(409.000000, 465.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="8.00171323" cy="8.00171323" r="8.00171323"></circle>
+                <text id="Reunion" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="6.00171323" y="2.00171323">Reunion</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(952.000000, 434.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="7.96911546" cy="7.96911546" r="7.96911546"></circle>
+                <text id="Indonesia" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="5.46911546" y="1.96911546">Indonesia</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(48.000000, 250.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="7.60881815" cy="7.60881815" r="7.60881815"></circle>
+                <text id="Belize" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="6.10881815" y="1.60881815">Belize</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(975.000000, 472.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="7.52129939" cy="7.52129939" r="7.52129939"></circle>
+                <text id="Marshall-Islands" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="3.52129939" y="3.52129939">Marshall Islands</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(27.000000, 370.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="7.32066633" cy="7.32066633" r="7.32066633"></circle>
+                <text id="Ecuador" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="5.32066633" y="1.32066633">Ecuador</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(333.000000, 455.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="6.8636754" cy="6.8636754" r="6.8636754"></circle>
+                <text id="Mozambique" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="3.8636754" y="1.8636754">Mozambique</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(428.000000, 465.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="6.81295749" cy="7.81295749" r="6.81295749"></circle>
+                <text id="Mauritius" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="4.31295749" y="1.81295749">Mauritius</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(953.000000, 418.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="6.69833738" cy="7.69833738" r="6.69833738"></circle>
+                <text id="Philippines" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="4.19833738" y="1.69833738">Philippines</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(976.000000, 455.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="6.60585523" cy="7.60585523" r="6.60585523"></circle>
+                <text id="Kiribati" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="4.60585523" y="1.60585523">Kiribati</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(898.000000, 441.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="6.41186217" cy="6.41186217" r="6.41186217"></circle>
+                <text id="Thailand" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="4.41186217" y="2.41186217">Thailand</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(34.000000, 298.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="6.39294199" cy="6.39294199" r="6.39294199"></circle>
+                <text id="Panama" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="4.39294199" y="3.39294199">Panama</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(54.000000, 324.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="6.2308298" cy="6.2308298" r="6.2308298"></circle>
+                <text id="Saint-Vincent" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="3.2308298" y="3.2308298">Saint Vincent</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(394.000000, 467.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="6.19668583" cy="6.19668583" r="6.19668583"></circle>
+                <text id="Comoros" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="3.69668583" y="2.19668583">Comoros</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(752.000000, 477.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="6" cy="6" r="6"></circle>
+                <text id="Sri-Lanka" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="4" y="4">Sri Lanka</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(59.000000, 354.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="5.92826901" cy="5.92826901" r="5.92826901"></circle>
+                <text id="Venezuela" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="3.42826901" y="3.92826901">Venezuela</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(288.000000, 395.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="5.06859094" cy="5.06859094" r="5.06859094"></circle>
+                <text id="Libya" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="3.56859094" y="9.06859094">Libya</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(228.000000, 418.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="4.91857615" cy="4.91857615" r="4.91857615"></circle>
+                <text id="Mauritania" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="2.41857615" y="2.91857615">Mauritania</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(916.000000, 443.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="4.48178208" cy="4.48178208" r="4.48178208"></circle>
+                <text id="Cambodia" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="1.98178208" y="2.48178208">Cambodia</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(556.000000, 223.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="3.96791615" cy="3.96791615" r="3.96791615"></circle>
+                <text id="Romania" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="1.46791615" y="2.96791615">Romania</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(315.000000, 436.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="3.92512374" cy="3.92512374" r="3.92512374"></circle>
+                <text id="Cameroon" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="1.42512374" y="4.92512374">Cameroon</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(214.000000, 419.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="3.88466027" cy="3.88466027" r="3.88466027"></circle>
+                <text id="Cabo-Verde" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="0.884660268" y="2.88466027">Cabo Verde</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(36.000000, 264.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="3.79245298" cy="3.79245298" r="3.79245298"></circle>
+                <text id="El-Salvador" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="0.792452976" y="3.79245298">El Salvador</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(962.000000, 476.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="3.76859122" cy="3.76859122" r="3.76859122"></circle>
+                <text id="Solomon-Islands" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="2.76859122" y="2.76859122">Solomon Islands</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(556.000000, 255.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="3.76501153" cy="3.76501153" r="3.76501153"></circle>
+                <text id="Slovenia" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="1.76501153" y="2.76501153">Slovenia</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(594.000000, 348.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="3.74935002" cy="3.74935002" r="3.74935002"></circle>
+                <text id="Albania" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="1.74935002" y="1.74935002">Albania</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(37.000000, 286.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="3.64208302" cy="3.64208302" r="3.64208302"></circle>
+                <text id="Nicaragua" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="1.14208302" y="4.64208302">Nicaragua</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(265.000000, 436.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="3.61074599" cy="3.61074599" r="3.61074599"></circle>
+                <text id="Cote-d'Ivoire" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="0.610745994" y="4.61074599">Cote d'Ivoire</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(337.000000, 446.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="3.3570663" cy="3.3570663" r="3.3570663"></circle>
+                <text id="Tanzania" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="0.857066301" y="3.3570663">Tanzania</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(37.000000, 275.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="3.34579434" cy="3.34579434" r="3.34579434"></circle>
+                <text id="Honduras" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="0.845794339" y="3.34579434">Honduras</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(524.000000, 457.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="3.33874411" cy="3.33874411" r="3.33874411"></circle>
+                <text id="Oman" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="1.83874411" y="3.33874411">Oman</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(255.000000, 455.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="5.30859632" cy="7.30859632" r="3.30859632"></circle>
+                <text id="Sao-Tome-&amp;-Principe" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="0.308596321" y="1.30859632">Sao Tome &amp; Principe</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(278.000000, 397.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="3.5" cy="3.5" r="3.5"></circle>
+                <text id="Algeria" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="1" y="5">Algeria</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(929.000000, 444.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="3.13360915" cy="3.13360915" r="3.13360915"></circle>
+                <text id="Vietnam" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="1.13360915" y="3.13360915">Vietnam</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(37.000000, 255.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="2.80977521" cy="2.80977521" r="2.80977521"></circle>
+                <text id="Guatemala" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="0.309775212" y="2.80977521">Guatemala</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(256.000000, 437.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="2.80263853" cy="2.80263853" r="2.80263853"></circle>
+                <text id="Sierra-Leone" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="0.802638533" y="2.80263853">Sierra Leone</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(246.000000, 437.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="2.75324774" cy="2.75324774" r="2.75324774"></circle>
+                <text id="Liberia" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="0.753247737" y="3.75324774">Liberia</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(307.000000, 438.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="2.1849957" cy="2.1849957" r="2.1849957"></circle>
+                <text id="Equatorial-Guinea" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="0.684995697" y="3.1849957">Equatorial Guinea</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(288.000000, 420.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="1.28471046" cy="1.28471046" r="1.28471046"></circle>
+                <text id="Chad" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="0.784710461" y="2.28471046">Chad</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(304.000000, 399.000000)">
+                <circle id="Oval" fill="#FF0000" fill-rule="nonzero" cx="0.5" cy="0.5" r="1"></circle>
+                <text id="Egypt" fill="#000000" font-family="Helvetica" font-size="1" font-weight="normal">
+                    <tspan x="1" y="1">Egypt</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

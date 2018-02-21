@@ -1,0 +1,392 @@
+body, text, select {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #011137;
+    fill: #011137;
+}
+
+body {
+    margin: 20px;
+    background: #fffff9;
+    font-size: 13px;
+}
+
+.logo {
+    position: absolute;
+    top: 8px;
+    right: 40px;
+}
+
+rect {
+    fill: #fffff9;
+}
+
+button:focus {outline:0;}
+
+h1 {
+    margin: 0 0 .8em;
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-bottom: 0;
+}
+
+.radioGroup {
+    display: inline-block;
+    margin-right: 3em;
+    margin-bottom: 1.1em;
+}
+
+.radioContainer {
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-right: .5em;
+    padding-left: 24px;
+}
+
+.radioContainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.radioBtn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    border: 1px dashed #8abbc7;
+}
+
+.radioBtn:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.radioContainer input:checked ~ .radioBtn:after {
+    display: block;
+}
+
+.radioContainer .radioBtn:after {
+    top: 3px;
+    left: 3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #8abbc7;
+}
+
+
+
+#chart {
+    width: 100%;
+}
+
+.chart {
+    position: relative;
+
+}
+
+
+.chart svg {
+    transition: height .1s;
+}
+
+
+.chart.-hidden svg {
+    height: 0;
+}
+
+.chart.-hidden .currentLabel {
+    display: none;
+}
+
+.selectorContainer h2 {
+    display: inline-block;
+    margin-right: 10px;
+    /*width: 130px;*/
+}
+
+.selectorContainerLabel {
+    position: relative;
+    display: inline-block;
+}
+
+.selector {
+    display: inline-block;
+    padding: 2px 3px 1px 30px;
+    margin: 0;
+    width: 200px;
+    font: inherit;
+    outline: none;
+    background: none;
+    border: 1px dashed #8abbc7;
+    -webkit-appearance: none;
+    border-radius: 6px;
+}
+
+.selectorContainerLabel::after {
+    content: "▼";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 50%;
+    line-height: 25px;
+    padding: 0 7px;
+    background: #8abbc7;
+    color: white;
+    pointer-events: none;
+    border-radius: 0 6px 6px 0;
+}
+
+.selectorFlag {
+    position: absolute;
+    top: -2px;
+    left: 5px;
+}
+
+.chartCompareHideBtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #8abbc7;
+    text-decoration: underline;
+}
+
+.chartCompareHideBtn.-hidden {
+    display: none;
+}
+
+
+
+.chart:not(.-zoomedOut) .scrollable {
+    cursor: move;
+}
+
+.chart .xAxisContainer {
+    cursor: zoom-out;
+}
+.chart.-zoomedOut .xAxisContainer {
+    cursor: zoom-in;
+}
+
+.yAxis-text {
+    fill: #000;
+}
+
+.grid line {
+    stroke: #8abbc7;
+    stroke-opacity: 0.2;
+    shape-rendering: crispEdges;
+}
+
+.grid path {
+    stroke-width: 0;
+}
+
+.area {
+    fill: #174084;
+    fill-opacity: .1;
+    stroke: none;
+}
+
+.line {
+    fill:none;
+    stroke: #174084;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    stroke-width: 1;
+}
+
+.currentDot {
+    fill: white;
+    stroke: #174084;
+    stroke-width: 3;
+    pointer-events: none;
+}
+
+.currentLabel {
+    color: #174084;
+    position: absolute;
+    margin-left: 55px;
+    margin-top: 40px;
+    background: rgba(255,255,255,.9);
+    width: 190px;
+    padding: 4px;
+    border-radius: 6px;
+    pointer-events: none;
+}
+
+.currentLabel.-right {
+    margin-left: -160px;
+    text-align: right;
+}
+
+.timeline .currentLabel {
+    margin-left: 48px;
+    margin-top: 0px;
+    top: -4px;
+    background: none;
+}
+
+.timeline .currentLabel.-right {
+    margin-left: -160px;
+}
+
+.currentLabel.-hidden, .currentDot.-hidden {
+    display: none;
+}
+
+
+.annotations circle, .annotations text {
+    fill: #ef4323;
+}
+
+.annotations line {
+    stroke: #ef4323;
+    stroke-width: .5px;
+}
+
+.annotations text {
+    font-size: .8em;
+    visibility: hidden;
+}
+
+.annotations:hover text {
+    visibility: visible;
+}
+
+.map {
+    margin-top: 2em;
+    min-width: 700px;
+    width: 100%;
+}
+
+.map.-hidden {
+    display: none;
+}
+
+.country {
+    cursor: pointer;
+}
+
+.country.-small text {
+    visibility: hidden;
+}
+
+.country.-small:hover text {
+    visibility: visible;
+}
+
+.country .static {
+    stroke: #174084;
+    stroke-width: .5;
+    fill:url(#diagonalHatch);
+    /*stroke-dasharray: 4, 2*/
+}
+
+.country .moving {
+    fill: #174084;
+    fill-opacity: .5;
+}
+
+.country.-selected .static, .country:hover .static {
+    stroke: #ef4323;
+}
+
+.country.-selected .moving, .country:hover .moving {
+    fill: #ef4323;
+}
+
+.country.-selected text, .country:hover text {
+    fill: #ef4323;
+}
+
+.country text {
+    dominant-baseline: hanging;
+}
+
+.legend {
+    pointer-events: none;
+}
+
+.timeline {
+    position: relative;
+}
+
+
+.timeline.-hidden {
+    display: none;
+}
+
+.playPauseToggle {
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 30px;
+}
+
+button {
+    border: 0;
+    background: #8abbc7;
+    color: #fff;
+    border-radius: 6px;
+    padding: 8px;
+    cursor: pointer;
+    height: 30px;
+}
+
+#share {
+    margin-top: 20px;
+}
+
+#share input {
+    width: 200px;
+    height: 28px;
+    padding: 0 5px;
+    border-radius: 5px;
+    border: 1px solid #8abbc7;
+}
+
+.share-block {
+    display: inline-block;
+}
+
+.share-block p {
+    margin-bottom: 4px;
+}
+
+.share-block button {
+    width: 70px;
+    height: 28px;
+    padding: 4px;
+}
+
+.share-or {
+    margin: 0 15px;
+    text-align: center;
+    position: relative;
+}
+
+.share-or::before, .share-or::after {
+    border-left: 1px solid #8abbc7;
+    content: "";
+    display: inline-block;
+    top: -10px;
+    position: absolute;
+    left: 50%;
+    height: 10px;
+}
+
+.share-or::after {
+    top: 15px;
+}
