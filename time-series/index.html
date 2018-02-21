@@ -8,6 +8,19 @@
   <title>GlobalFishingWatch</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i" rel="stylesheet">
   <link href="index.css" rel="stylesheet">
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-56517380-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
 </head>
 <body>
   <div>
@@ -43,15 +56,19 @@
 
   <div id="share">
     <h2>Share these charts</h2>
-    <p>Copy and paste the address into an email or IM:</p>
-    <input class="js-share-content-link" value="" type="text">
-    <button class="js-share-content-link-copy" type="submit">Copy</button>
-    <div class="share-or">
+    <div class="share-block">
+      <p>Copy and paste the address into an email or IM:</p>
+      <input class="js-share-content-link" value="" type="text">
+      <button class="js-share-content-link-copy" type="submit">Copy</button>
+    </div>
+    <div class="share-block share-or">
       OR
     </div>
-    <p>Embed in your site:</p>
-    <input class="js-share-content-iframe" readonly="" value="" type="text">
-    <button class="js-share-content-iframe-copy" type="submit">Copy</button>
+    <div class="share-block">
+      <p>Embed in your site:</p>
+      <input class="js-share-content-iframe" readonly="" value="" type="text">
+      <button class="js-share-content-iframe-copy" type="submit">Copy</button>
+    </div>
   </div>
 
   <script src="https://d3js.org/d3.v4.min.js"></script>

@@ -5,7 +5,7 @@ const NO_COUNTRY = '___'
 const NUM_CHARTS = 2
 const TOP_NUM = 40
 const BASE_SHARE_URL = 'http://globalfishingwatch.io/time-series'
-const BASE_SHARE_IFRAME_CODE = '<iframe allowfullscreen="true" width="730" height="650" src="$baseUrl" />'
+const BASE_SHARE_IFRAME_CODE = '<iframe src="$baseUrl" allowfullscreen="true" width="730" height="955" frameborder="no" border="0" marginwidth="0" marginheight="0" /></iframe>'
 
 const ANNOTATIONS = {
   // CHN: [[new Date(2016, 6, 1), 'Moratorium']]
