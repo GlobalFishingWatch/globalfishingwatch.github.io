@@ -71,7 +71,7 @@ ORDER BY
 From the above query, it looks like China had the greatest number of fishing hours in 2016 followed by Taiwan, Spain, Italy, and France.  
 
 ##### Fishing Hours by Geartype for a Specific Flag State
-Perhaps we wish to determine the hours of fishing by Norwegian fishing vessels by fishing gear (trawler, drifting longliner, fixed gear). We can adapt the query above to aggregate by gear type rather than flag and then add an additional entry to the `WHERE` clause `WHERE flag = 'NOR'` which will limit the results to just those vessels that have the iso3 value for Norway.
+Perhaps we wish to determine the hours of fishing by Norwegian fishing vessels by fishing gear (trawler, drifting longliner, fixed gear). We can adapt the query above to aggregate by gear type rather than flag and then add an additional entry to the `WHERE` clause `AND flag = 'NOR'` which will limit the results to just those vessels that have the iso3 value for Norway.
 
 ```
 SELECT
@@ -143,7 +143,7 @@ ORDER BY
   month
 ```
 
-From this example it is clear that this small region is most heavily fished by trawlers in July and August, with less activity the remainder of the year. If we broadened the query to look at multiple years, added `YEAR(date) AS year` to the SELECT statement, and `year` to the `GROUP BY` clause we could assess shifts in this pattern across years. We could even generate a daily timeseries of fishing effort and plot fishing hours overtime over time.  
+From this example it is clear that this small region is most heavily fished by trawlers in July and August, with less activity the remainder of the year. If we broadened the query to look at multiple years, added `YEAR(date) AS year` to the SELECT statement, and `year` to the `GROUP BY` clause we could assess shifts in this pattern across years. We could even generate a daily timeseries of fishing effort and plot fishing hours over time.  
 
 #### Querying Fishing Effort by Vessel  
 
