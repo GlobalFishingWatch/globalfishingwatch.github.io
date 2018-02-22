@@ -38,7 +38,7 @@ Along with the recent release of our [fishing effort]({{ site.url }}{{site.baseu
 
 Automatic Identification System (AIS) signals can be received by terrestrial antennas near the shore, and also by a constellation of satellites. A satellite can receive messages from vessels that are thousands of kilometers apart, and, in a crowded part of the world (such as southeast Asia), a single satellite recieves messages from thousands of vessels. These messages can interfer with one another, and thus, in these regions of high vessel density, satellite AIS coverage is not as good as it is in low density parts of the world.
 
-By contract, a terrestrial antenta can only receieve messages from vessels a few dozen kilometers, at most, out to see. As such, they receive fewer messages at once, and have less of a problem with message interference. These antennas can be found along many of the world's coastlines, especially in developed countries. 
+By contract, a terrestrial antenna can only receieve messages from vessels a few dozen kilometers, at most, out to see. As such, they receive fewer messages at once, and have less of a problem with message interference. These antennas can be found along many of the world's coastlines, especially in developed countries. 
 
 We have a database of AIS "coverage" that we will soon be making public, and which can be used to help interpret the regions of world (and time frames) that our data can be best used. 
 
