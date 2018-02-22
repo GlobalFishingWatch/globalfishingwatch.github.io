@@ -4,7 +4,7 @@ layout: default
 
 # Tracking the Global Footprint of Fisheries
 
-In the 23 February 2018 issue of _Science_, we published a [global analysis of fishing effort using AIS data](http://science.sciencemag.org/cgi/doi/10.1126/science.aao1118). We have made our data on the vessel identity and fishing effort freely available. This page will provide links to insights on the data that has been made available with this paper.
+In the 23 February 2018 issue of _Science_, we published a [global analysis of fishing effort using AIS data](http://science.sciencemag.org/content/359/6378/904). We have made our data on the vessel identity and fishing effort freely available. This page will provide links to insights on the data that has been made available with this paper.
 
 Access our fishing effort and vessel identity data through the [Global Fishing Watch Community Page](https://globalfishingwatch.force.com/gfw/s/data_download).
 
