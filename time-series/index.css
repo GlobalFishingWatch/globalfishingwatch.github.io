@@ -14,6 +14,7 @@ body {
     position: absolute;
     top: 8px;
     right: 40px;
+    border: 0;
 }
 
 rect {
@@ -150,8 +151,8 @@ h2 {
 
 .selectorFlag {
     position: absolute;
-    top: -2px;
-    left: 5px;
+    top: 4px;
+    left: 6px;
 }
 
 .chartCompareHideBtn {
@@ -268,6 +269,7 @@ h2 {
 .map {
     margin-top: 2em;
     min-width: 700px;
+    min-height: 500px;
     width: 100%;
 }
 
@@ -290,7 +292,7 @@ h2 {
 .country .static {
     stroke: #174084;
     stroke-width: .5;
-    fill:url(#diagonalHatch);
+    fill: url(#diagonalHatch) white;
     /*stroke-dasharray: 4, 2*/
 }
 
@@ -333,6 +335,11 @@ h2 {
     left: 0;
     top: 4px;
     width: 30px;
+    text-align: center;
+}
+
+.playPauseToggle img {
+    width: 70%;
 }
 
 button {
@@ -346,27 +353,47 @@ button {
 }
 
 #share {
-    margin-top: 70px;
+    margin-top: 20px;
 }
 
 #share input {
-    width: 350px;
-    height: 32px;
+    width: 200px;
+    height: 28px;
     padding: 0 5px;
     border-radius: 5px;
     border: 1px solid #8abbc7;
 }
 
+.share-block {
+    display: inline-block;
+}
+
+.share-block p {
+    margin-bottom: 4px;
+}
+
+.share-block button {
+    width: 70px;
+    height: 28px;
+    padding: 4px;
+}
+
 .share-or {
-    margin: 10px 0;
-    width: 240px;
+    margin: 0 15px;
     text-align: center;
+    position: relative;
 }
 
 .share-or::before, .share-or::after {
-    border-top: 1px solid #8abbc7;
+    border-left: 1px solid #8abbc7;
     content: "";
     display: inline-block;
-    top: 50%;
-    width: 100px;
+    top: -10px;
+    position: absolute;
+    left: 50%;
+    height: 10px;
+}
+
+.share-or::after {
+    top: 15px;
 }
