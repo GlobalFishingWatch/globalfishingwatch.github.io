@@ -4,7 +4,7 @@ layout: default
 
 # Fishing Effort
 
-Daily fishing effort, gridded at 0.01 degrees, by geartype and flag state, is available to download from [Global Fishing Watch's community page](https://globalfishingwatch.force.com/gfw/s/topic/0TO36000000PXJdGAO/global-fishing-watch-data).
+Daily fishing effort, gridded at 0.01 degrees, by geartype and flag state, is available to download from [Global Fishing Watch's community page](https://globalfishingwatch.force.com/gfw/s/data_download).
 
 The methodology for these data are described in our _Science_ paper, ["Tracking the Global Footprint of Fisheries"]({{ site.url }}{{site.baseurl}}/global-footprint-of-fisheries.html).
 

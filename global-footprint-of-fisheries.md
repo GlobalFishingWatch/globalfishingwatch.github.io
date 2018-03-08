@@ -10,11 +10,11 @@ Access our fishing effort and vessel identity data through the [Global Fishing W
 
 You can read about our fishing effort data [here]({{ site.url }}{{site.baseurl}}/effort.html), and our vessel identity data [here]({{ site.url }}{{site.baseurl}}/vessels.html).
 
-A public github repo with analyses and code for the paper is available [here](https://github.com/GlobalFishingWatch/Global-Footprint-of-Fisheries).
+A public GitHub repository with analyses and code for the paper is available [here](https://github.com/GlobalFishingWatch/Global-Footprint-of-Fisheries).
 
 Related Blog Posts:
 
- - [Using BigQuery to Summarize GFW Data]({{ site.url }}{{site.baseurl}}/2018/02/22/our-data-in-bigquery.html)
+ - [Using BigQuery to Summarize GFW Data]({{ site.url }}{{site.baseurl}}/bigquery/2018/02/22/our-data-in-bigquery.html)
  - [AIS Coverage]({{ site.url }}{{site.baseurl}}/ais_coverage/2018/02/22/ais-coverage.html)
  - [Global Fishing Watch Data in Earth Engine]({{ site.url }}{{site.baseurl}}/earthengine/2018/02/22/our-data-in-earth-engine.html)
 

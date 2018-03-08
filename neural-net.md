@@ -8,4 +8,6 @@ In addition to identifying vessels using information in the AIS data and matchin
 
 The methods of this classifier are described in detail in our paper, [Tracking the global footprint of fisheries]({{ site.url }}{{site.baseurl}}/global-footprint-of-fisheries.html)). We have also open sourced the code, which you can access at [this github repo](https://github.com/GlobalFishingWatch/vessel-classification).
 
+Results of the neural net classifier for 2012 to 2016 can be [downloaded here](https://globalfishingwatch.force.com/gfw/s/).
+
 Page last updated: Feb 22, 2018

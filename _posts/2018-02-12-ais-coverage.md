@@ -3,7 +3,7 @@ layout: post
 title: AIS Data Coverage - Data Coming Soon
 author: David Kroodsma
 tags: [ais coverage, data]
-category: [ais_coverage]
+category: [ais_coverage] 
 comments: False
 ---
 <style>
@@ -34,20 +34,19 @@ table {
 </style>
 
 
-Along with the recent release of our [fishing effort]({{ site.url }}{{site.baseurl}}/effort.html) data, we are also releasing information on how good AIS coverage is for different parts of the world. That is, in some parts of the ocean, an AIS signal sent by a vessel is very likely to be in our database, and in others, it is less likely to be so.
+Along with the recent release of our [fishing effort]({{ site.url }}{{site.baseurl}}/effort.html) data, we are also releasing information on the quality of AIS coverage for different parts of the world. That is, in some parts of the ocean, an AIS signal sent by a vessel is likely to make it to our database, and in other parts of the ocean, it is not.
 
-Automatic Identification System (AIS) signals can be received by terrestrial antennas near the shore, and also by a constellation of satellites. A satellite can receive messages from vessels that are thousands of kilometers apart, and, in a crowded part of the world (such as southeast Asia), a single satellite recieves messages from thousands of vessels. These messages can interfer with one another, and thus, in these regions of high vessel density, satellite AIS coverage is not as good as it is in low density parts of the world.
+Automatic Identification System (AIS) signals can be received by terrestrial antennas near the shore, and also by a constellation of satellites. A satellite can receive messages from vessels that are thousands of kilometers apart, and, in a crowded part of the world (such as southeast Asia), a single satellite receives messages from thousands of vessels at once. These messages can interfere with one another, and thus, in these regions of high vessel density, satellite AIS coverage is not as good as it is in low density parts of the world.
 
-By contract, a terrestrial antenta can only receieve messages from vessels a few dozen kilometers, at most, out to see. As such, they receive fewer messages at once, and have less of a problem with message interference. These antenas can be found along many of the world's coastlines, especially in developed countries. 
+By contrast, a terrestrial antenna can only receive messages from vessels that are, at most, a few dozen kilometers from shore. As such, they receive fewer messages at once and have less of a problem with message interference. These antennas can be found along many of the world's coastlines, especially in developed countries, providing us relatively good coverage close to shore in many regions.
 
-We have a database of AIS "coverage" that we will soon be making public, and which can be used to help interpret the regions of world (and time frames) that our data can be best used. 
+We have a database of AIS coverage quality that we will soon be making public, and which can be used to identify regions where we may not be detecting fishing due to poor AIS reception quality. 
 
-Below is an image of coverage quality for Class A AIS devices in 2016, and in 2014. What this map does is divide the day into five minute intevals, and then count the number of those five minute intervals in which we receive a message from a vessel. A hundred percent would be receiving a message every five minutes; one percent would mean that only about two signals in two different five minute periods were recieved. Our ability to measure fishing effort deteriorates rapidly below about 10 percent of the day, which translates into about 20 to 30 postions in a given day.
+Below are images of coverage quality for Class A AIS devices in 2016 and 2014. Here's how the values below are calculated: We divide the day into five minute intervals, and then count the number of those five minute intervals in which we receive a message from a given vessel. A hundred percent would be receiving a message at least every five minutes; one percent would mean that only about one or two messages were received in the day. Our ability to measure fishing effort deteriorates rapidly below about 10 percent of the day, which translates into about 20 to 30 positions in a given day.
 
 To get updates for when this entire database is available for your use, sign up on [Global Fishing Watch's community page](https://globalfishingwatch.force.com/gfw/s/). We will update this blog posting when it is available. 
 
 ![2016_coverage]({{ site.url }}{{site.baseurl}}/images/ais_coverage/coverage_a_2016.png)
-
 
 ![2014_coverage]({{ site.url }}{{site.baseurl}}/images/ais_coverage/coverage_a_2014.png)
 

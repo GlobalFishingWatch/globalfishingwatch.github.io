@@ -33,17 +33,26 @@ table {
       margin-bottom: 0; }
 </style>
 
-Today, with our publication in _Science_, we are releasing fishing effort data for 2012 to 2016. One of the ways we are releasing it is through Google's Earth Engine. There is a bit of a steep learning curve on Earth Engine -- you have to be able to code in JavaScript or Python. But once you learn the basics, it is an incredibly powerful way to explore geospatial data. 
+Today, with our publication in [_Science_](http://science.sciencemag.org/cgi/doi/10.1126/science.aao1118), we are releasing fishing effort data for 2012 to 2016. One of the ways we are releasing it is through Google's Earth Engine. If you have not used Earth Engine, it is easy to start, although you will have to write scripts in JavaScript or Python. Go to [earthengine.google.com](https://earthengine.google.com/) and click on `sign up.` Google provides an introduction and tutorial [here](https://developers.google.com/earth-engine/tutorial_api_01).
 
-If you have not used Earth Engine, it is easy to sign up. Go to [earthengine.google.com](https://earthengine.google.com/) and click on `sign up.`
+Earth Engine is a fantastic tool for analyzing big, geospatial, remote-sensed data. It has been used to analyze [deforestation](http://earthenginepartners.appspot.com/science-2013-global-forest) across all the world's forests, or measure the [extent of all the planet's lakes, rivers, and reservoirs](https://www.nature.com/articles/nature20584). It also has an increasing amount of oceanographic data, and now, also our fishing effort data.  
 
-Here is an [example of a script](https://code.earthengine.google.com/443e6a6067eda953101d77db3717446a) that loads one year of fishing into the map, and [here's a similar one](https://code.earthengine.google.com/3da7e980c09352963d5c3447646b4a68) that shows vessel presence. These scripts allow you to stylize the global map of fishing as you like, and export it as an image. 
+You can read about our data in Earth Engine on this [blog post](https://medium.com/google-earth) on the Google Earth and Earth Engine Medium Blog.
 
-One of the powers of earth engine is the ability to compare sea surface temperature to fishing effort. Here is [an example of a script](https://code.earthengine.google.com/5bfea0ba920226a6a1780b02de502f92) that creates a video for an entire year, showing changes in sea surface temperature and the movements of drifting longlines. Below is an image created from this script.
+Below are a few links to scripts that can run using our data in EarthEngine. We will be adding to this list as we develop more applications. 
+
+
+### Make a Global Image
+Here is an [example of a script](https://code.earthengine.google.com/ff4f05aebf86829ecc9809e7ddd64ff4) that loads one year of fishing into the map, and [here's a similar one](https://code.earthengine.google.com/9a873d94cb94d5630c46e9272972d197) that shows vessel presence. Modify these scripts to stylize the global map of fishing as you like, and export it as an image to your Google Drive folder. You can make an image like this one:
+
+![high_res_ee]({{ site.url }}{{site.baseurl}}/images/high_res_global_ee.jpg)
+
+### Compare Temperature and Drifting Longlines
+One of the powers of earth engine is the ability to compare sea surface temperature to fishing effort. Here is [a script](https://code.earthengine.google.com/5bfea0ba920226a6a1780b02de502f92) that creates a video for an entire year, showing changes in sea surface temperature and the fishing activity of drifting longlines. Below is an image created from this script.
  
-You can also read more about Earth Engine and Global Fishing Watch on the [Google Earth and Earth Engine Medium Blog](https://medium.com/google-earth).
-
 ![anchorages]({{ site.url }}{{site.baseurl}}/images/global_temp_and_longlines2016.gif)
+
+We will be adding more examples here as we explore the data in Earth Engine.
 
 
 

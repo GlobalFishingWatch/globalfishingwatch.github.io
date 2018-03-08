@@ -4,9 +4,9 @@ layout: default
 
 # Vessel Identity
 
-Over the course of a year, over 300,000 unique vessels broadcast their location via AIS. Several tens of thousands of these vessels are industrial fishing vessels, and we identify them using three methods, listed below. With the recent publication of our paper, [Tracking the global footprint of fisheries]({{site.url}}{{site.baseurl}}/global-footprint-of-fisheries.html), we are releasing the results of our [neural net vessel classifier]({{site.url}}{{site.baseurl}}/neural-net.html). See [this page](	) for documentation of these vessel lists, or visit the [Global Fishing Watch Community](https://globalfishingwatch.force.com/gfw/s/topic/0TO36000000PXJdGAO/global-fishing-watch-data) Page to download the list and results of this neural network.
+Over the course of a year, over 300,000 unique vessels broadcast their location via AIS. Several tens of thousands of these vessels are industrial fishing vessels, and we identify them using three methods, listed below. With the recent publication of our paper, [Tracking the global footprint of fisheries]({{site.url}}{{site.baseurl}}/global-footprint-of-fisheries.html), we are releasing the results of our [neural net vessel classifier]({{site.url}}{{site.baseurl}}/neural-net.html). Vsit the [Global Fishing Watch Community Page](https://globalfishingwatch.force.com/gfw/s/data_download) to download the list and results of this neural network.
 
-Note that these lists are not the exact same as the vessels that currently appear on [globalfishingwatch.org](http://globalfishingwatch.org). Globalfishingwatch.org uses a combination of the `self-reported` and `known` fishing vessels, while the datset with our _Science_ paper uses a combination of the `known` and the `inferred` fishing lists. 
+Note that these lists are not the exact same as the vessels that currently appear on [globalfishingwatch.org](http://globalfishingwatch.org). Globalfishingwatch.org uses a combination of the `self-reported` and `known` fishing vessels, while the dataset with our _Science_ paper uses a combination of the `known` and the `inferred` fishing lists. There are a few technical reasons for this difference, and we are working to harmonize all of our vessel lists.
 
 These are the three ways we identify fishing vessels:
 
@@ -21,7 +21,7 @@ The third method involves using machine learning techniques to identify vessels 
 
 
 # Version 0.3 of Vessel Lists 
-This release is the same as version 0.2, except we have included type 19 messages, which are messages where Class B vessels broadcast their identity. These messages were accidentally not included in the previous versions of the vessel lists, which excluded some vessels. Also, these lists are updated for all of 2016, and include a list for 2017. To download lists 0.3, visit [this github release](https://github.com/GlobalFishingWatch/treniformis/tree/0.3/treniformis/_assets/GFW/FISHING_MMSI/KNOWN_AND_LIKELY).
+This release is the same as version 0.2, except we have included type 19 messages, which are messages where Class B vessels broadcast their identity. These messages were accidentally not included in the previous versions of the vessel lists, which excluded some vessels. Also, these lists are updated for all of 2016, and include a list for 2017. To download lists 0.3, visit [this GitHub release](https://github.com/GlobalFishingWatch/treniformis/tree/0.3/treniformis/_assets/GFW/FISHING_MMSI/KNOWN_AND_LIKELY).
 
 For 2017, we include all mmsi active in the previous 12 months. We will be updating the 2017 list periodically, and posting those updates here.
 
