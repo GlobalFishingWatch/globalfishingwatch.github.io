@@ -4,7 +4,8 @@ layout: default
 
 # Vessel Identity
 
-Over the course of a year, over 300,000 unique vessels broadcast their location via AIS. Several tens of thousands of these vessels are industrial fishing vessels, and we identify them using three methods, listed below. With the recent publication of our paper, [Tracking the global footprint of fisheries]({{site.url}}{{site.baseurl}}/global-footprint-of-fisheries.html), we are releasing the results of our [neural net vessel classifier]({{site.url}}{{site.baseurl}}/neural-net.html). See [this page](	) for documentation of these vessel lists, or visit the [Global Fishing Watch Community](https://globalfishingwatch.force.com/gfw/s/topic/0TO36000000PXJdGAO/global-fishing-watch-data) Page to download the list and results of this neural network.
+Over the course of a year, over 300,000 unique vessels broadcast their location via AIS. Several tens of thousands of these vessels are industrial fishing vessels, and we identify them using three methods, listed below. With the recent publication of our paper, [Tracking the global footprint of fisheries]({{site.url}}{{site.baseurl}}/global-footprint-of-fisheries.html), we are releasing the results of our [neural net vessel classifier]({{site.url}}{{site.baseurl}}/neural-net.html). 
+Visit the [Global Fishing Watch Community](https://globalfishingwatch.force.com/gfw/s/topic/0TO36000000PXJdGAO/global-fishing-watch-data) Page to download the list and results of this neural network.
 
 Note that these lists are not the exact same as the vessels that currently appear on [globalfishingwatch.org](http://globalfishingwatch.org). Globalfishingwatch.org uses a combination of the `self-reported` and `known` fishing vessels, while the datset with our _Science_ paper uses a combination of the `known` and the `inferred` fishing lists. 
 

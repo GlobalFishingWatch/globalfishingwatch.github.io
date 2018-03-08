@@ -1,6 +1,6 @@
 # Welcome to Global Fishing Watch’s Data and Open Source Code Website
 
-This website is your portal for the datasets and code that power [Global Fishing Watch](http://globalfishingwatch.org){:target="_blank"}, an NGO dedicated to creating transparencty in the commercial fishing industry. Learn more at [globalfishingwatch.org](http://globalfishingwatch.org).
+This website is your portal for the datasets and code that power [Global Fishing Watch](http://globalfishingwatch.org){:target="_blank"}, an NGO dedicated to creating transparency in the commercial fishing industry. Learn more at [globalfishingwatch.org](http://globalfishingwatch.org).
 
 
 ### Data
@@ -12,7 +12,7 @@ This website is your portal for the datasets and code that power [Global Fishing
  - [Other Data](other.html)
 
 ### Papers by Global Fishing Watch and Research Partners
- - Kroodsma, DA, J Mayorga, T Hochberg,  NA Miller, K Boerder, F Ferretti, A Wilson, B Bergman,TD White, BA Block, P Woods, B Sullivan, C Costello, B Worm. Tracking the Global Footprint of Fisheries. 2018. _Science_. February 22, 2018. [Paper summary]({{ site.url }}{{site.baseurl}}/global-footprint-of-fisheries.html) - [GitHub Repo](https://github.com/GlobalFishingWatch/Global-Footprint-of-Fisheries) - [Read paper](http://science.sciencemag.org/cgi/doi/10.1126/science.aao1118)
+ - Kroodsma, DA, J Mayorga, T Hochberg,  NA Miller, K Boerder, F Ferretti, A Wilson, B Bergman,TD White, BA Block, P Woods, B Sullivan, C Costello, B Worm. Tracking the Global Footprint of Fisheries. 2018. _Science_. February 22, 2018. [Paper summary]({{ site.url }}{{site.baseurl}}/global-footprint-of-fisheries.html) - [GitHub Repo](https://github.com/GlobalFishingWatch/Global-Footprint-of-Fisheries) - [Read paper](http://science.sciencemag.org/content/359/6378/904)
  - White, TD, AB Carlisle, DA Kroodsma, BA Block, R Casagrandi, GD De Leo, M Gatto, F. Micheli, DJ McCauley. Assessing the effectiveness of a large marine protected area for reef shark conservation. _Biological Conservation_. 207: 64–71. [Read paper](http://www.sciencedirect.com/science/article/pii/S0006320717300678) - [Blog entry](http://globalfishingwatch.org/media-kit/tracking-fishing-vessels-sharks-reveals-protection-large-mobile-animals/)
  - Kroodsma, DA, Sullivan B. Protecting Marine World Heritage from space. 2016. _The Future of the World Heritage Convention for marine conservation: celebrating 10 years of the World Heritage Marine Programme_ 35-48. [Read paper](http://unesdoc.unesco.org/images/0024/002468/246839e.pdf)
  - Kroodsma, DA, NA Miller, A Roan. 2017. The Global View of Transshipment: Revised Preliminary Findings. Global Fishing Watch, SkyTruth. [Blog entry](http://globalfishingwatch.org/initiatives/transshipment-success/report-first-global-view-transshipment-sea/) - [Read paper](http://globalfishingwatch.org/wp-content/uploads/GlobalViewOfTransshipment_Aug2017.pdf)
