@@ -9,7 +9,7 @@ This website is your portal for the datasets and code that power [Global Fishing
  - [Transshipment](transshipment.html)
  - [Anonymized AIS Data](anonymized.html)
  - [Anchorages](anchorages.html)
- - [Rendezvous](rendezvous.html)
+ - [Encounters](encounters.html)
  - [Other Data](other.html)
 
 ### Papers by Global Fishing Watch and Research Partners

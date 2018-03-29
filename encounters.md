@@ -2,28 +2,26 @@
 layout: default
 ---
 
-# Rendezvous
+# Encounters
 
-Rendezvous were identified from AIS data as locations where two vessels were
+Encounters were identified from AIS data as locations where two vessels were
 continuously within 500 meters for at least 2 hours, while at least 10 km from
 a coastal [anchorage](anchorages.html). These parameters balance the need to
 detect vessel pairs in close proximity for extended periods of time while
 recognizing that incomplete satellite coverage and inconsistent AIS transmission
 rates may limit our ability to identify long periods in which vessels are in
-immediate contact. We exclude rendezvous that occur in port or commonly used
-anchorages, because 1) transshipment at port is generally better regulated
-than at sea and 2) it would be challenging to determine if vessels were
-rendezvousing at a commonly used anchorage, or if they were just both using
-the same anchorage.
+immediate contact. We exclude encounters that occur in port or commonly used
+anchorages because we are primarily interested in encounters as they relate
+to transhipment and 1) transshipment at port is generally better regulated
+than at sea and 2) the majority encounters in the vicinity of ports are
+chance events, not related to transshipment.
 
-# Likely Transhipments
+# Possible Transhipments
 
-The [transshipments dataset](transshipment.html) and the
-[Global Fishing Watch map](http://globalfishingwatch.org/map/) 
-encounters layer use the subset of rendezvous where one of the
-vessels is identified a fish carrier and the other as
-a fishing vessel. We refer to these rendezvous as likely 
-transhipments.
+The [transshipments dataset](transshipment.html) and the [Global Fishing Watch
+map](http://globalfishingwatch.org/map/)  encounters layer focus on *possible
+transshipments*, a subset of encounters where one of the vessels is identified
+a fish carrier and the other as a fishing vessel. 
 
 ## Fish Carriers
 
