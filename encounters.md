@@ -16,10 +16,10 @@ to transhipment and 1) transshipment at port is generally better regulated
 than at sea and 2) the majority encounters in the vicinity of ports are
 chance events, not related to transshipment.
 
-# Possible Transhipments
+# Potential Transhipments
 
 The [transshipments dataset](transshipment.html) and the [Global Fishing Watch
-map](http://globalfishingwatch.org/map/)  encounters layer focus on *possible
+map](http://globalfishingwatch.org/map/)  encounters layer focus on *potential
 transshipments*, a subset of encounters where one of the vessels is identified
 a fish carrier and the other as a fishing vessel. 
 
@@ -36,10 +36,10 @@ search and reviewed RFMO registries using information from the vessel's AIS to
 determine if the vessel was a transshipment vessel. Finally, we used a
 convolutional neural network, which  predicts vessel class from vessel
 movement patterns (network described in Kroodsma et al. 2018), to identify
-possible transshipment vessels. Vessels that were identified as likely
-transshipment vessels by the neural network were manually validated through
-web searches and RFMO registries. Vessel identities were further corroborated
-via the IMO as nearly all vessels could be matched to an IMO registry number.
+likely transshipment vessels. Vessels that were identified as transshipment
+vessels by the neural network were manually validated through web searches and
+RFMO registries. Vessel identities were further corroborated via the IMO as
+nearly all vessels could be matched to an IMO registry number.
 
 ## Fishing Vessels
 
