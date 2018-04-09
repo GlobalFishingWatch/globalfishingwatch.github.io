@@ -5,7 +5,7 @@ ruby RUBY_VERSION
 gem 'execjs'
 gem 'therubyracer', "0.11.4"
 gem 'ffi', '1.9.14'
-gem 'nokogiri', '1.6.8.1'
+gem 'nokogiri', '1.8.1'
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima"
