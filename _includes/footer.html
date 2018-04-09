@@ -15,15 +15,10 @@
 
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-<!--           <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
-            </li> -->
           <li><a href="{{ site.contact }}"><img src="{{site.baseurl}}/images/mail.jpg" height="13"> research@globalfishingwatch</a></li>
 
+{% comment %}
+<!--  temporary remved until github start using minima version 2.4.1
           {% if site.github_username %}
           <li>
             {% include icon-github.html username=site.github_username %}
@@ -35,6 +30,8 @@
             {% include icon-twitter.html username=site.twitter_username %}
           </li>
           {% endif %}
+-->
+{% endcomment %}
         </ul>
       </div>
 
