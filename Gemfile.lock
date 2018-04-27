@@ -208,7 +208,7 @@ GEM
     minitest (5.11.3)
     multipart-post (2.0.0)
     net-dns (0.8.0)
-    nokogiri (1.8.1)
+    nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
     octokit (4.8.0)
       sawyer (~> 0.8.0, >= 0.5.3)
@@ -256,7 +256,7 @@ DEPENDENCIES
   jekyll-coffeescript (~> 1.0)
   jekyll-seo-tag (~> 2.0)
   minima (~> 2.4.0)
-  nokogiri (= 1.8.1)
+  nokogiri (~> 1.8.2)
   therubyracer (= 0.11.4)
 
 RUBY VERSION
