@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Acessing GFW Data in BigQuery Using R"
+title: "Accessing GFW Data in BigQuery Using R"
 author: David Kroodsma
 tags: [fishing effort, BigQuery]
 category: [fishingeffort]
@@ -36,4 +36,4 @@ table {
 
 One of the ways we have released our data is through Google's BigQuery. BigQuery allows one to easily aggregate the data or select only the region or time period of interest. We have posted some example queries [here](http://globalfishingwatch.io/bigquery/2018/02/22/our-data-in-bigquery.html).
 
-One our colleagues, Juan Mayorga of UCSB and National Geographic Pristine Seas, recently worte a tutorial on his website for how to connect this BigQuery datset using R, which you can read here: [jsmayorga.com/post/getting-global-fishing-watch-from-google-bigquery-using-r/](http://jsmayorga.com/post/getting-global-fishing-watch-from-google-bigquery-using-r/). This post is a fantastic resource for all researchers who want to access our data, and we highly recommend it. 
+One our colleagues, Juan Mayorga of UCSB and National Geographic Pristine Seas, recently wrote a tutorial on his website for how to connect this BigQuery datset using R, which you can read here: [jsmayorga.com/post/getting-global-fishing-watch-from-google-bigquery-using-r/](http://jsmayorga.com/post/getting-global-fishing-watch-from-google-bigquery-using-r/). This post is a fantastic resource for all researchers who want to access our data, and we highly recommend it. 
