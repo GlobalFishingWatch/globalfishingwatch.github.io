@@ -5,6 +5,7 @@ author: David Kroodsma
 tags: [fishing effort, BigQuery]
 category: [fishingeffort]
 comments: False
+redirect_to: http://globalfishingwatch.org/data-blog/accessing-gfw-data-in-bigquery-using-r/
 ---
 <style>
 table {
