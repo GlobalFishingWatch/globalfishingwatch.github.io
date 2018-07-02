@@ -1,5 +1,7 @@
 ---
 layout: default
+redirect_to:
+ - http://globalfishingwatch.org/research/global-footprint-of-fisheries/
 ---
 
 # Tracking the Global Footprint of Fisheries
