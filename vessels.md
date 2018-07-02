@@ -1,5 +1,6 @@
 ---
 layout: default
+redirect_to: http://globalfishingwatch.org/datasets-and-code/vessel-identity/
 ---
 
 # Vessel Identity
