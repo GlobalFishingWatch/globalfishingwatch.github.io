@@ -5,6 +5,7 @@ author: David Kroodsma
 tags: [fishing effort, Earth Engine]
 category: [EarthEngine]
 comments: False
+redirect_to: http://globalfishingwatch.org/data-blog/our-data-in-earth-engine/
 ---
 <style>
 table {
