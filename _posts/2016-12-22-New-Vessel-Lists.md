@@ -4,6 +4,7 @@ title: Updated Fishing Lists - Version 0.2
 author: David Kroodsma
 tags: [AIS, Data]
 category: [Vessel_Activity]
+redirect_to: http://globalfishingwatch.org/data-blog/updated-fishing-lists-version-0-2/
 ---
 
 For the first release of Global Fishing Watch, we included only vessels that had more than 1000 positions in a given year, and broadcast their identity as fishing vessels 100 percent of the time in their AIS identity messages. The list of these mmsi can be [seen here](https://github.com/GlobalFishingWatch/treniformis/tree/0.1/).
