@@ -5,6 +5,7 @@ author: David Kroodsma
 tags: [Transshipment]
 category: [Transshipment]
 comments: False
+redirect_to: http://globalfishingwatch.org/data-blog/transshipment-data-and-report/
 ---
 
 Today we published our initial research on transshipment at sea. Transshipment at sea is where a fishing vessel offloads its catch to a refrigerated cargo vessel (or "reefer") far from port. You can download a copy of our report via [this link](http://globalfishingwatch.org/data).
