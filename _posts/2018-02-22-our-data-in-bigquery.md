@@ -5,6 +5,7 @@ author: Nate Miller
 tags: [Fishing Effort, BigQuery]
 category: [BigQuery]
 comments: False
+redirect_to: http://globalfishingwatch.org/data-blog/our-data-in-bigquery/
 ---
 <style>
 table {
