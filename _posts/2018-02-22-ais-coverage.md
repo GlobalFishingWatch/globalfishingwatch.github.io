@@ -5,6 +5,7 @@ author: David Kroodsma
 tags: [ais coverage, data]
 category: [ais_coverage]
 comments: False
+redirect_to: http://globalfishingwatch.org/data-blog/ais-coverage-data-coming-soon/
 ---
 <style>
 table {
