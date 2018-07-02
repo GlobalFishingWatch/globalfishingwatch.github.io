@@ -5,6 +5,7 @@ author: Egil Moeller
 tags: [Data, Visualization]
 category: [Code]
 comments: False
+redirect_to: http://globalfishingwatch.org/data-blog/web-visualization-at-scale/
 ---
 
 # Background
