@@ -4,6 +4,7 @@ title: Fishing localization using the vessel-scoring library
 author: Egil Moeller
 tags: [AIS, ML]
 category: [Code]
+redirect_to: http://globalfishingwatch.org/data-blog/fishing-localization-using-the-vessel-scoring-library/
 ---
 
 
