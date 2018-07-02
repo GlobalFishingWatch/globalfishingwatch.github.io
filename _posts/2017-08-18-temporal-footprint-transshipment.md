@@ -5,6 +5,7 @@ author: David Kroodsma
 tags: [Transshipment]
 category: [Transshipment]
 comments: False
+redirect_to: http://globalfishingwatch.org/data-blog/temporal-footprint-of-transshipment/
 ---
 
 Based on a lengthly review of refrigerated cargo vessels, we have just updated our transshipment data. You can read about the update [here](http://blog.globalfishingwatch.org/2017/08/transshipment-report-refined/) or download the slightly updated report and data [here](http://globalfishingwatch.org/data). The overall story of transshipments, as Nate notes in [this post](http://blog.globalfishingwatch.org/2017/08/transshipment-report-refined/), is unchanged. 
