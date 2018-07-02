@@ -49,3 +49,6 @@ authors:
     web: http://globalfishingwatch.org
     twitter: redhog
     github: redhog
+
+plugins:
+  - jekyll-redirect-from
