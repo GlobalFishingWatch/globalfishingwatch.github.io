@@ -1,5 +1,7 @@
 ---
 layout: default
+redirect_to:
+ - http://globalfishingwatch.org/datasets-and-code/ais-and-other-data/
 ---
 
 # Anonymized AIS Data
