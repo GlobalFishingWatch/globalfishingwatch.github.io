@@ -1,5 +1,6 @@
 ---
 layout: default
+redirect_to: http://globalfishingwatch.org/transshipment-success/report-first-global-view-transshipment-sea/
 ---
 
 # Transshipment Data
