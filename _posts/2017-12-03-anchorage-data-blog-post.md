@@ -5,6 +5,7 @@ author: Nate Miller
 tags: [Anchorages]
 category: [Anchorages]
 comments: False
+redirect_to: http://globalfishingwatch.org/data-blog/global-anchorage-database/
 ---
 <style>
 table {
