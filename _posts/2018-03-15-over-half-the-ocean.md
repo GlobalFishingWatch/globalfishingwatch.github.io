@@ -5,6 +5,7 @@ author: David Kroodsma
 tags: [fishing effort, Area]
 category: [fishingeffort]
 comments: False
+redirect_to: http://globalfishingwatch.org/data-blog/over-half-the-ocean-is-fished/
 ---
 <style>
 table {
